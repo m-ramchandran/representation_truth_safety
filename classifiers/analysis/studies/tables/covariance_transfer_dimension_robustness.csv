@@ -1,0 +1,28 @@
+dimension,metric,metric_label,control,control_label,correlation_with_transfer,ordinary_p_value,n_pairs
+16,covariance_shape_similarity,Full covariance shape,unadjusted,By itself,0.3770630783996951,0.004543873954236331,55
+16,covariance_shape_similarity,Full covariance shape,label_free_controls,After dataset distance + same task,0.25257769636772887,0.06282439895245961,55
+16,covariance_shape_similarity,Full covariance shape,alignment_control,After diff-in-means alignment,-0.237583277587394,0.08070697974280476,55
+32,covariance_shape_similarity,Full covariance shape,unadjusted,By itself,0.33160771303578235,0.013390865432128373,55
+32,covariance_shape_similarity,Full covariance shape,label_free_controls,After dataset distance + same task,0.09467593289943281,0.49173299960861405,55
+32,covariance_shape_similarity,Full covariance shape,alignment_control,After diff-in-means alignment,-0.15170398891507172,0.26888260271740855,55
+64,covariance_shape_similarity,Full covariance shape,unadjusted,By itself,0.35007846467572157,0.008790409908396551,55
+64,covariance_shape_similarity,Full covariance shape,label_free_controls,After dataset distance + same task,0.11227711492152537,0.4144262979772978,55
+64,covariance_shape_similarity,Full covariance shape,alignment_control,After diff-in-means alignment,-0.1361755305977009,0.3215215203748294,55
+16,variance_profile_similarity,Variance by coordinate,unadjusted,By itself,0.3772073811468822,0.00452719194351083,55
+16,variance_profile_similarity,Variance by coordinate,label_free_controls,After dataset distance + same task,0.26037836282896654,0.05486737812681327,55
+16,variance_profile_similarity,Variance by coordinate,alignment_control,After diff-in-means alignment,-0.10983593100881808,0.4247109729330384,55
+32,variance_profile_similarity,Variance by coordinate,unadjusted,By itself,0.2902289002799031,0.031598100778685086,55
+32,variance_profile_similarity,Variance by coordinate,label_free_controls,After dataset distance + same task,0.11071201569232374,0.4210034832925279,55
+32,variance_profile_similarity,Variance by coordinate,alignment_control,After diff-in-means alignment,-0.038540172407314804,0.7799682915519086,55
+64,variance_profile_similarity,Variance by coordinate,unadjusted,By itself,0.25209689933573187,0.06334365452230051,55
+64,variance_profile_similarity,Variance by coordinate,label_free_controls,After dataset distance + same task,0.05727278521549807,0.6778991574732377,55
+64,variance_profile_similarity,Variance by coordinate,alignment_control,After diff-in-means alignment,-0.07594616194700328,0.5815706424196556,55
+16,leading_variation_overlap,Main variation directions,unadjusted,By itself,0.3872003463895836,0.003495236431524465,55
+16,leading_variation_overlap,Main variation directions,label_free_controls,After dataset distance + same task,0.20220493155436914,0.13874277835848164,55
+16,leading_variation_overlap,Main variation directions,alignment_control,After diff-in-means alignment,-0.1529132731475415,0.26503999662817324,55
+32,leading_variation_overlap,Main variation directions,unadjusted,By itself,0.5004058515578044,0.00010004366232213933,55
+32,leading_variation_overlap,Main variation directions,label_free_controls,After dataset distance + same task,0.3549866385191942,0.007827855943398847,55
+32,leading_variation_overlap,Main variation directions,alignment_control,After diff-in-means alignment,-0.19817505591882467,0.1469534146891707,55
+64,leading_variation_overlap,Main variation directions,unadjusted,By itself,0.5265246487986558,3.641028915769639e-05,55
+64,leading_variation_overlap,Main variation directions,label_free_controls,After dataset distance + same task,0.37893596775322175,0.0043315087941489215,55
+64,leading_variation_overlap,Main variation directions,alignment_control,After diff-in-means alignment,-0.16154564346188735,0.23867900307771764,55

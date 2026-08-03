@@ -1,0 +1,56 @@
+# All datasets merged (geometry_truth's 9 sub-datasets count as ONE dataset;
+# their sub-names live in `topic`). Last-token activations, canonical layers.
+#   python -m clustering.run_clustering clustering/configs/config_merged_last.yaml   # full grid
+#   python -m clustering.leave_one_out  clustering/configs/config_merged_last.yaml   # LODO designs
+
+scope: merged_last
+output: clustering/results
+
+data:
+  datasets: [geometry_truth, harmful_harmless, pubmedqa_artificial,
+             pubmedqa_labeled, social_iqa, wildjailbreak, xstest]
+  variant: last               # last | mean | sae | transcoder
+  layers: [9, 17, 22, 29]     # Scope layers (file layer{s+1} on the HF repo)
+  merge: true
+
+pca:
+  components: [15, 25, 40, 50, 60]
+
+seeds: [0, 1, 2, 3, 4]
+pca_bootstrap: 5
+
+methods:
+  gmm:
+    covariance_type: [diag, full]
+    k: [4, 6, 8, 10, 12, 16, 20, 26, 32, 40]
+  mfa:
+    n_factors: [6, 9, 12]
+    k: [6, 10, 16]
+  kmeans:
+    k:
+      pca: [4, 6, 8, 10, 12, 16, 20, 26, 32, 40]
+      raw: [4, 6, 8, 10, 12, 16, 20, 26, 32]
+  leiden:
+    space: [pca]
+    resolution: [0.5, 1.0, 2.0]
+    n_neighbors: [15, 30]
+  hdbscan:
+    space: [pca]
+    min_cluster_size: [15, 30, 60]
+
+leave_one_out:                # small GMM grid; each dataset above held out in turn
+  designs: [shared_pca, loo_pca]   # loo_raw = no PCA; use diag cov only if enabled
+  pc: 50
+  gmm:
+    covariance_type: [diag, full]
+    k: [8, 16, 32]
+  seed: 0
+
+# t-SNE / UMAP for viewing (run_embeddings.py; needs the finished run's saved PCA)
+embeddings:
+  space_pc: [15, 25, 40, 50, 60]   # all PC counts the clusterings used; never raw
+  seeds: [0, 1, 2, 3, 4]
+  tsne:
+    perplexity: [10, 30, 50, 100]
+  umap:
+    n_neighbors: [15, 30, 60, 120]

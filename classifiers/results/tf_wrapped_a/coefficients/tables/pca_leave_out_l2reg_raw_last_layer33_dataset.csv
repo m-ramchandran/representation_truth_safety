@@ -1,0 +1,12 @@
+dataset,cos_single,cos_pool_mean_dir,energy_in_pool_span,auc_on_heldout
+claude_anatomy,0.5176,0.8165,0.8554,0.6708
+claude_vds,-0.7745,0.8421,0.8169,0.685
+common_claim,0.5692,0.5724,0.6285,0.7506
+counterfact,0.4822,0.6822,0.6544,0.7747
+got,0.6171,0.734,0.7919,0.969
+harmful_harmless,0.5124,0.8426,0.8638,0.9939
+pubmedqa_artificial,-0.8709,0.8721,0.8768,0.8829
+pubmedqa_labeled,0.7455,0.6934,0.7688,0.8728
+social_iqa,-0.141,0.8249,0.8498,0.6833
+wildjailbreak,0.1184,0.357,0.5015,0.7085
+xstest,-0.1326,0.8486,0.7985,0.9411

@@ -1,0 +1,20 @@
+__pycache__/
+*.py[cod]
+.DS_Store
+.idea/
+.vscode/
+
+# Activation caches — fetched from Hugging Face on first use.
+cache/
+*.parquet
+
+# Run outputs. The metrics tables under results/*/tables/ are tracked;
+# everything heavy that a rerun regenerates is not.
+classifiers/results/*/*/figures/
+classifiers/results/*/*/predictions/
+classifiers/results/*/covariances/
+classifiers/results/*/boundary_refits/
+classifiers/results/paper/
+classifiers/analysis/studies/figures/
+clustering/results/
+classifiers/results/*/paper_inputs/

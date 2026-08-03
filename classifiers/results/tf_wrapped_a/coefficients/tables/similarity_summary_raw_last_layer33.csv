@@ -1,0 +1,16 @@
+method,measure,within_task,cross_task,spearman_vs_transfer_auc,n_pairs_with_auc
+l1reg,plain,-0.006,-0.009,0.218,132
+l1reg,mahalanobis_reg_cov_pool,0.238,0.068,0.434,132
+l1reg,mahalanobis_reg_cov_test,0.365,0.173,0.882,132
+l2reg,plain,0.159,-0.036,0.134,132
+l2reg,mahalanobis_reg_cov_pool,0.336,0.103,0.521,132
+l2reg,mahalanobis_reg_cov_test,0.465,0.225,0.872,132
+svm_linear,plain,0.134,-0.046,0.116,132
+svm_linear,mahalanobis_reg_cov_pool,0.34,0.112,0.486,132
+svm_linear,mahalanobis_reg_cov_test,0.454,0.223,0.853,132
+lda,plain,0.028,-0.086,0.062,132
+lda,mahalanobis_reg_cov_pool,0.149,0.039,0.241,132
+lda,mahalanobis_reg_cov_test,0.282,0.107,0.564,132
+diff,plain,0.378,0.165,0.748,132
+diff,mahalanobis_reg_cov_pool,0.387,0.252,0.588,132
+diff,mahalanobis_reg_cov_test,0.574,0.387,0.809,132

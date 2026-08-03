@@ -1,0 +1,19 @@
+collection,regime,prompt_type,summary,median_auc,q25,q75,n_fits
+data_unwrap,target dataset absent,adversarial,linear,0.5046774873969753,0.49217687204929184,0.527278454829159,20
+data_unwrap,target dataset absent,adversarial,nonlinear,0.5604446107065696,0.519111650796191,0.5964530015203648,20
+data_unwrap,target dataset absent,adversarial,best observed,0.6178001216291911,0.6031772657437786,0.6427912066896054,4
+data_unwrap,target dataset absent,vanilla,linear,0.80568924,0.7728438408000001,0.8929910640000001,20
+data_unwrap,target dataset absent,vanilla,nonlinear,0.8909236896,0.8351442872,0.9091823808,20
+data_unwrap,target dataset absent,vanilla,best observed,0.9203798416,0.9027767583999999,0.9353865784,4
+data_unwrap,target task absent,adversarial,linear,0.47606436104665123,0.4677673561654797,0.49495939425462115,20
+data_unwrap,target task absent,adversarial,nonlinear,0.5276867216131871,0.5055199935984636,0.5500744226614388,20
+data_unwrap,target task absent,adversarial,best observed,0.5715351524365848,0.5523438473233577,0.6102257141714011,4
+data_unwrap,target task absent,vanilla,linear,0.6137929232,0.602756944,0.6595212375999999,20
+data_unwrap,target task absent,vanilla,nonlinear,0.7175973536,0.6819893544,0.7411875191999999,20
+data_unwrap,target task absent,vanilla,best observed,0.796715976,0.7921444888,0.801815004,4
+tf_wrapped_a,target task absent,adversarial,linear,0.5121330176,0.46728522559999996,0.5224500328,20
+tf_wrapped_a,target task absent,adversarial,nonlinear,0.5157985184,0.4859905616,0.566709404,16
+tf_wrapped_a,target task absent,adversarial,best observed,0.593854368,0.5812906,0.5962975168,4
+tf_wrapped_a,target task absent,vanilla,linear,0.5082550656,0.3708652128,0.6807303912,20
+tf_wrapped_a,target task absent,vanilla,nonlinear,0.7154280704,0.6065225752000001,0.7706161608000001,16
+tf_wrapped_a,target task absent,vanilla,best observed,0.8308539264000001,0.8137762576,0.8409128048,4

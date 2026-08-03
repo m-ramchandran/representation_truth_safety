@@ -1,0 +1,13 @@
+dataset,cos_single,cos_pool_mean_dir,energy_in_pool_span,auc_on_heldout
+claude_anatomy,0.0326,0.5258,0.5057,0.7209
+claude_blood_test_ranges,-0.0027,0.5258,0.5057,0.5209
+claude_vds,0.0216,0.4675,0.4331,0.5649
+common_claim,0.0533,0.4488,0.4915,0.6556
+counterfact,0.0085,0.4488,0.4915,0.6752
+got,-0.058,0.4488,0.4915,0.9558
+harmful_harmless,-0.0276,0.5027,0.5018,0.9342
+pubmedqa_artificial,0.0025,0.5258,0.5057,0.7172
+pubmedqa_labeled,0.0383,0.5258,0.5057,0.6328
+social_iqa,-0.0147,0.4722,0.5139,0.6738
+wildjailbreak,-0.016,0.5027,0.5018,0.5714
+xstest,0.0001,0.5027,0.5018,0.7403

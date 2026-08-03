@@ -1,0 +1,12 @@
+layer,dataset,task,n_geometry,label_gap_over_radius,median_within_cv_auc
+17,got,tf,2000,0.3849121,0.999
+17,common_claim,tf,2000,0.2773999,0.876
+17,counterfact,tf,2000,0.21701068,0.913
+17,harmful_harmless,jailbreak,1024,0.4367657,1.0
+17,pubmedqa_artificial,medical,2000,0.2722325,0.966
+17,pubmedqa_labeled,medical,890,0.16283159,0.831
+17,wildjailbreak,jailbreak,2000,0.2492499,0.986
+17,xstest,jailbreak,450,0.4781436,0.9944999999999999
+17,social_iqa,social_iqa,2000,0.21225129,0.8525
+17,claude_anatomy,medical,1000,0.18003628,0.963
+17,claude_vds,claude_vds,126,0.28524226,0.7344999999999999

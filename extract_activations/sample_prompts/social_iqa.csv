@@ -1,0 +1,151 @@
+dataset,label_raw,label,row,sample,prompt
+social_iqa,1,correct=1,30026,1,"according to the article Riley still got paid.
+What does Riley need to do before this?
+A) work hard
+B) be happy
+C) get the money"
+social_iqa,1,correct=1,28681,2,"Alex put their things away because it was time to do chores.
+What does Alex need to do before this?
+A) get out their things
+B) talk about their chores
+C) do their chores"
+social_iqa,1,correct=1,22286,3,"Aubrey went fishing with her brother when she was home from college.
+What does Aubrey need to do before this?
+A) make plans to fish before this
+B) visit her brother
+C) bond with her brother"
+social_iqa,1,correct=1,18027,4,"Remy carried out Addison's work in their place after their untimely death that spring.
+What will happen to Remy?
+A) do the work Addison had once done
+B) plan a funeral
+C) have a funeral"
+social_iqa,1,correct=1,9498,5,"Even though Cameron was deep in denial, Sydney made Cameron accept their diagnosis.
+How would Cameron feel as a result?
+A) resigned to their fate
+B) annoyed by Sydney's help
+C) excited about their fate"
+social_iqa,1,correct=1,1454,6,"Kendall let Carson's dog out since Carson had to work late.
+What does Kendall need to do before this?
+A) open the back door
+B) pet the dog
+C) bring the dog to their house"
+social_iqa,1,correct=1,612,7,"Cameron's mother had been up late the night before. Cameron took the subway to school.
+Why did Cameron do this?
+A) wanted to avoid inconveniencing their mother
+B) get a ticket
+C) find the station"
+social_iqa,1,correct=1,10990,8,"Sydney worked all day in the garden and by the end of the day Sydney felt that they had done an excellent job today.
+What will Sydney want to do next?
+A) go inside and get a shower
+B) walk about and get anxious
+C) Get some gardening tools"
+social_iqa,1,correct=1,6263,9,"Jesse got down on the ground and slowly straddled Riley's hips.
+What will Riley want to do next?
+A) make love
+B) watch television
+C) go to sleep"
+social_iqa,1,correct=1,2669,10,"Kai bought a new pair of shoes at the designer outlet for only one hundred dollars.
+How would you describe Kai?
+A) one who appreciates a bargain
+B) one who anticipates trouble
+C) one who likes ugly shoes"
+social_iqa,2,correct=2,1122,1,"All the neighbors hated hearing my dog bark, so Jordan took my dog.
+What will Others want to do next?
+A) fess up to the situation
+B) lead the dog away
+C) hurt the dog"
+social_iqa,2,correct=2,23759,2,"Lee dropped his comb in the toilet and still used it in his hair even though it was dirty.
+How would you describe Lee?
+A) regretful and embarrassed
+B) has poor hygiene
+C) indifferent and unaffected"
+social_iqa,2,correct=2,90,3,"Aubrey sent text messages to remind the group about the meeting this afternoon.
+What does Aubrey need to do before this?
+A) get everybody's email addresses
+B) find out the meeting time
+C) be certain that no one was late"
+social_iqa,2,correct=2,28844,4,"Robin opened Jesse's mouth to speak but Jesse got angry and wanted to speak for themselves.
+How would you describe Robin?
+A) speak but Jesse got angry and wanted to speak for themselves
+B) a controlling person
+C) a laid back person"
+social_iqa,2,correct=2,30219,5,"riley was having a hard time so he forgot to set aubrey's alarm.
+How would Riley feel afterwards?
+A) smart
+B) stupid
+C) clever"
+social_iqa,2,correct=2,13857,6,"Ethan was applying to nursing school and asked Lee for a recommendation letter.
+What did Ethan need to do before this?
+A) finish going to medical school
+B) do good work for Lee to impress them
+C) know Ethan"
+social_iqa,2,correct=2,33052,7,"It was late at the party and Remy said they had to leave.
+What will Others want to do next?
+A) Arrive at the party
+B) tell Remy goodbye
+C) at the next party"
+social_iqa,2,correct=2,9710,8,"Remy called his friends over to his house and revealed the cause of Bailey's death.
+What does Remy need to do before this?
+A) be mourned
+B) call his friends
+C) take a bath"
+social_iqa,2,correct=2,27050,9,"Carson knew the barber well and introduced the others to him.
+What will Others want to do next?
+A) talk to the barber
+B) The others will want their hair cut next
+C) jog next"
+social_iqa,2,correct=2,19649,10,"lee was traumatized from his time in the war so he went and talked to a therapist.
+How would Lee feel afterwards?
+A) as upset
+B) lucid about their state of mental distress
+C) as content"
+social_iqa,3,correct=3,15004,1,"Aubrey educated their children on right and wrong so they would grow up well.
+What will happen to Others?
+A) get great mother's day gifts
+B) be rich as their children become doctors
+C) grow up well"
+social_iqa,3,correct=3,17035,2,"Remy went to the mall and met the Santa that was working there.
+How would Others feel as a result?
+A) bored and resentful
+B) angry and sad
+C) excited to meet him"
+social_iqa,3,correct=3,18629,3,"Tracy met society's demands and got a nice job with a great family.
+How would you describe Tracy?
+A) feeling loved
+B) feeling lazy
+C) responsible afterwards"
+social_iqa,3,correct=3,1049,4,"Jan's forgot to charge her new Tesla. Jan decided to walk to work instead of calling a cab or taking the bus.
+What did Jan do?
+A) feeling great
+B) feeling strong
+C) walked to work that day"
+social_iqa,3,correct=3,210,5,"The friends and Jesse had lunch together and it was a great time.
+How would you describe Jesse?
+A) good
+B) very much a loner
+C) very sociable"
+social_iqa,3,correct=3,23879,6,"Sydney gave Skylar support after Skylar described a bad domestic violence situation.
+What will Sydney want to do next?
+A) expel Sydney
+B) slander Sydney
+C) find shelter"
+social_iqa,3,correct=3,23103,7,"Even though she had no intentions of anything other than just being friends with the others, Tracy always teased them and pretended differently.
+What will Others want to do next?
+A) Ask Tracy out on a date
+B) unimportant
+C) Leave tracy alone to herself"
+social_iqa,3,correct=3,293,8,"Riley treated the girls to dinner after they won the girl's soccer championship.
+How would the girls feel as a result?
+A) ungrateful to Riley
+B) disgusted with Riley
+C) like they are winners"
+social_iqa,3,correct=3,4535,9,"Casey was at a meeting and desperately wanted to say something but in the end just wasnt able to do so.
+How would you describe Casey?
+A) angry he missed his moment
+B) a loud person
+C) a quiet person"
+social_iqa,3,correct=3,14276,10,"Sasha was training for the finals which her basketball team was playing.
+What does Sasha need to do before this?
+A) Work on her shooting
+B) compete in the last game to win
+C) play with her team as she trained"

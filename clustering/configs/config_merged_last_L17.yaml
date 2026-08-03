@@ -1,0 +1,46 @@
+# config_merged_last.yaml restricted to layer 17, so the four layers can
+# run as parallel jobs, one per layer (same scope; results merge into one tree).
+
+scope: merged_last
+output: clustering/results
+
+data:
+  datasets: [geometry_truth, harmful_harmless, pubmedqa_artificial,
+             pubmedqa_labeled, social_iqa, wildjailbreak, xstest]
+  variant: last               # last | mean | sae | transcoder
+  layers: [17]
+  merge: true
+
+pca:
+  components: [15, 25, 40, 50, 60]
+
+seeds: [0, 1, 2, 3, 4]
+pca_bootstrap: 5
+
+methods:
+  gmm:
+    covariance_type: [diag, full]
+    k: [4, 6, 8, 10, 12, 16, 20, 26, 32, 40]
+  mfa:
+    n_factors: [6, 9, 12]
+    k: [6, 10, 16]
+  kmeans:
+    k:
+      pca: [4, 6, 8, 10, 12, 16, 20, 26, 32, 40]
+      raw: [4, 6, 8, 10, 12, 16, 20, 26, 32]
+  leiden:
+    space: [pca]
+    resolution: [0.5, 1.0, 2.0]
+    n_neighbors: [15, 30]
+  hdbscan:
+    space: [pca]
+    min_cluster_size: [15, 30, 60]
+
+# t-SNE / UMAP for viewing (run_embeddings.py; needs the finished run's saved PCA)
+embeddings:
+  space_pc: [15, 25, 40, 50, 60]   # all PC counts the clusterings used; never raw
+  seeds: [0, 1, 2, 3, 4]
+  tsne:
+    perplexity: [10, 30, 50, 100]
+  umap:
+    n_neighbors: [15, 30, 60, 120]

@@ -1,0 +1,57 @@
+# One experiment = one config. Submit with:
+#   python -m clustering.run_clustering clustering/configs/example_config.yaml
+# Already-saved fits are skipped on re-run (delete a run dir to refit it).
+
+scope: cities                 # dataset name, or a multidataset tag
+output: clustering/results
+
+# Data, form 1: local .npz paths, one per layer (see load_data.py for the contract).
+inputs:
+  - {layer: 9,  path: /path/to/cities_L9.npz}
+  - {layer: 17, path: /path/to/cities_L17.npz}
+  - {layer: 22, path: /path/to/cities_L22.npz}
+  - {layer: 29, path: /path/to/cities_L29.npz}
+
+# Data, form 2: the HF repo (anqiwang02/Activations); files download once and
+# stay in the local HF cache. Dataset names are the keys of load_data.DATASETS
+# (geometry_truth = its 9 sub-datasets as ONE dataset, sub-name in `topic`).
+# Layers are Scope layers.  merge: true -> one pooled run with dataset_id;
+# merge: false -> a separate full run per dataset.
+# data:
+#   datasets: [geometry_truth, harmful_harmless, xstest]
+#   variant: last             # last | mean | sae | transcoder
+#   layers: [9, 17, 22, 29]
+#   merge: true
+
+# Leave-one-dataset-out (merged data: only), run separately with
+#   python -m clustering.leave_one_out clustering/configs/example_config.yaml
+# leave_one_out:
+#   designs: [shared_pca, loo_pca]  # + loo_raw (no PCA, expensive)
+#   pc: 50
+#   gmm: {covariance_type: [diag, full], k: [8, 16, 32]}
+#   seed: 0
+
+pca:
+  components: [15, 25, 40, 50, "95%"]
+
+seeds: [0, 1, 2, 3, 4]        # every seeded method is fit under each
+pca_bootstrap: 5              # PCA-fit resamples (cluster full data on those PCs)
+
+methods:
+  gmm:                        # PCA space
+    covariance_type: [diag, full]
+    k: [4, 6, 8, 10, 12, 16, 20, 26, 32, 40]
+  mfa:                        # raw activations
+    n_factors: [6, 8, 10, 14, 18]
+    k: [4, 6, 8, 10, 12, 16, 20, 26, 32, 40]
+  kmeans:                     # one k list per space; omit a space to skip it
+    k:
+      pca: [4, 6, 8, 10, 12, 16, 20, 26, 32, 40]
+      raw: [4, 6, 8, 10, 12, 16, 20, 26, 32, 40]
+  leiden:                     # own k
+    space: [pca]
+    resolution: [0.5, 1.0, 2.0]
+    n_neighbors: [15, 30]
+  hdbscan:                    # own k
+    space: [pca]
+    min_cluster_size: [15, 30, 60]

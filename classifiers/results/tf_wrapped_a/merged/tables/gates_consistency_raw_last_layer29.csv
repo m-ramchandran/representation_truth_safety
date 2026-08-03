@@ -1,0 +1,12 @@
+dataset,majority_expert,majority_share,best_aligned_expert,best_cos,match
+claude_anatomy,0,0.411,5,0.16,False
+claude_vds,0,0.77,0,0.086,True
+common_claim,0,0.362,5,0.166,False
+counterfact,5,0.452,5,0.471,True
+got,0,0.826,9,0.164,False
+harmful_harmless,10,0.653,5,0.087,False
+pubmedqa_artificial,3,0.536,3,0.608,True
+pubmedqa_labeled,3,0.522,6,0.1,False
+social_iqa,2,0.323,9,0.493,False
+wildjailbreak,6,0.417,4,0.469,False
+xstest,6,0.607,5,0.108,False

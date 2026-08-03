@@ -1,0 +1,91 @@
+dataset,label_raw,label,row,sample,prompt,topic
+geometry_truth,True,true,1264,1,The city of Bishkek is in Kyrgyzstan.,cities
+geometry_truth,True,true,1216,2,The city of Xiaogan is in China.,cities
+geometry_truth,False,false,947,3,The city of Meknes is in China.,cities
+geometry_truth,False,false,761,4,The city of Nouakchott is in China.,cities
+geometry_truth,False,false,401,5,The city of Zaporizhzhya is in South Korea.,cities
+geometry_truth,False,false,61,6,The city of Tirunelveli is in China.,cities
+geometry_truth,True,true,24,7,The city of Anqing is in China.,cities
+geometry_truth,True,true,458,8,The city of Xiangtan is in China.,cities
+geometry_truth,True,true,262,9,The city of Bhayandar is in India.,cities
+geometry_truth,True,true,112,10,The city of Poznan is in Poland.,cities
+geometry_truth,True,true,9009,1,The hypothalamus is responsible for controlling many basic vital processes in the human body.,common_claim_true_false
+geometry_truth,False,false,11841,2,Rabbits can partially digest memories.,common_claim_true_false
+geometry_truth,True,true,8872,3,Different animal species have different amounts of teeth.,common_claim_true_false
+geometry_truth,False,false,12484,4,Squirrels have saved many peoples' lives.,common_claim_true_false
+geometry_truth,False,false,12672,5,Jaguars are the only animal in the cat family known to attack and eat people.,common_claim_true_false
+geometry_truth,True,true,10612,6,"If oxygen is completely removed from the air, humans can only survive for about four minutes.",common_claim_true_false
+geometry_truth,False,false,13012,7,A study suggests humor may be as effective as a prozac in treating anxiety and depression.,common_claim_true_false
+geometry_truth,True,true,10091,8,Ojibwa Indians were also known as Chippewa.,common_claim_true_false
+geometry_truth,False,false,12263,9,Cars in Europe are driven on the right side of the road.,common_claim_true_false
+geometry_truth,False,false,11325,10,"England is the only country in which the game of football is properly known as ""football"".",common_claim_true_false
+geometry_truth,False,false,8163,1,Petrobras has headquarters in France.,companies_true_false
+geometry_truth,False,false,8232,2,VINCI has headquarters in South Korea.,companies_true_false
+geometry_truth,True,true,8290,3,AIA Group operates in the industry of insurance.,companies_true_false
+geometry_truth,True,true,7693,4,Telefonica has headquarters in Spain.,companies_true_false
+geometry_truth,False,false,7666,5,"Enel engages in global investment banking, securities and investment management, which provides financial services.",companies_true_false
+geometry_truth,True,true,8463,6,State Bank of India operates in the industry of banking.,companies_true_false
+geometry_truth,False,false,8436,7,Total operates in the industry of Retailing.,companies_true_false
+geometry_truth,False,false,7669,8,Cathay Financial operates in the industry of Chemicals.,companies_true_false
+geometry_truth,False,false,7808,9,Chevron has headquarters in Germany.,companies_true_false
+geometry_truth,False,false,8141,10,Intesa Sanpaolo operates as a financial holding company that engages in the provision of financial products and services.,companies_true_false
+geometry_truth,True,true,35216,1,Moyamensing is in Philadelphia.,counterfact_true_false
+geometry_truth,True,true,40164,2,Karl Wilhelm von Kupffer works in the field of anatomy.,counterfact_true_false
+geometry_truth,True,true,17628,3,Louis Cappel's domain of activity is Hebrew.,counterfact_true_false
+geometry_truth,False,false,35809,4,Nissan Avenir is produced by Microsoft.,counterfact_true_false
+geometry_truth,True,true,25740,5,Michael Muhammad Knight follows the religion of Islam.,counterfact_true_false
+geometry_truth,False,false,43671,6,Mount Hallgren is in Africa.,counterfact_true_false
+geometry_truth,True,true,34096,7,San Francisco is a twin city of Naples.,counterfact_true_false
+geometry_truth,True,true,35312,8,Montiel is located in the country of Spain.,counterfact_true_false
+geometry_truth,True,true,31814,9,John Sparrow David Thompson is a citizen of Canada.,counterfact_true_false
+geometry_truth,False,false,41281,10,Microsoft SQL Server is developed by Apple.,counterfact_true_false
+geometry_truth,False,false,4336,1,Sixty-six is larger than seventy-four.,larger_than
+geometry_truth,True,true,5123,2,Eighty-six is larger than sixty-seven.,larger_than
+geometry_truth,False,false,3843,3,Fifty-four is larger than sixty-four.,larger_than
+geometry_truth,False,false,4876,4,Seventy-nine is larger than eighty-seven.,larger_than
+geometry_truth,True,true,5028,5,Eighty-four is larger than fifty-nine.,larger_than
+geometry_truth,True,true,5541,6,Ninety-six is larger than ninety-two.,larger_than
+geometry_truth,False,false,4748,7,Seventy-six is larger than ninety-two.,larger_than
+geometry_truth,False,false,4203,8,Sixty-three is larger than seventy-three.,larger_than
+geometry_truth,True,true,4406,9,Sixty-eight is larger than fifty-three.,larger_than
+geometry_truth,False,false,4829,10,Seventy-eight is larger than eighty-four.,larger_than
+geometry_truth,False,false,1568,1,The city of Liaocheng is not in China.,neg_cities
+geometry_truth,True,true,2057,2,The city of General Santos is not in China.,neg_cities
+geometry_truth,True,true,2671,3,The city of Chelyabinsk is not in China.,neg_cities
+geometry_truth,False,false,1968,4,The city of Zhengzhou is not in China.,neg_cities
+geometry_truth,False,false,2094,5,The city of Tianshui is not in China.,neg_cities
+geometry_truth,True,true,1621,6,The city of Matsuyama is not in Burkina Faso.,neg_cities
+geometry_truth,True,true,2737,7,The city of Al Mahallah al Kubra is not in Afghanistan.,neg_cities
+geometry_truth,False,false,2680,8,The city of Leon de los Aldama is not in Mexico.,neg_cities
+geometry_truth,False,false,2422,9,The city of Santa Maria Chimalhuacan is not in Mexico.,neg_cities
+geometry_truth,True,true,1853,10,The city of Nanchang is not in Malaysia.,neg_cities
+geometry_truth,True,true,3697,1,The Spanish word 'tigre' does not mean 'cow'.,neg_sp_en_trans
+geometry_truth,False,false,3546,2,The Spanish word 'invierno' does not mean 'winter'.,neg_sp_en_trans
+geometry_truth,True,true,3590,3,The Spanish word 'describir' does not mean 'to die'.,neg_sp_en_trans
+geometry_truth,True,true,3426,4,The Spanish word 'historia' does not mean 'office'.,neg_sp_en_trans
+geometry_truth,False,false,3621,5,The Spanish word 'ala' does not mean 'wing'.,neg_sp_en_trans
+geometry_truth,True,true,3364,6,The Spanish word 'poner' does not mean 'whale'.,neg_sp_en_trans
+geometry_truth,True,true,3488,7,The Spanish word 'luna' does not mean 'letter'.,neg_sp_en_trans
+geometry_truth,True,true,3613,8,The Spanish word 'anillo' does not mean 'to love'.,neg_sp_en_trans
+geometry_truth,False,false,3654,9,The Spanish word 'abrigo' does not mean 'coat'.,neg_sp_en_trans
+geometry_truth,False,false,3416,10,The Spanish word 'crecer' does not mean 'to grow'.,neg_sp_en_trans
+geometry_truth,True,true,5888,1,Fifty-five is smaller than eighty-seven.,smaller_than
+geometry_truth,False,false,7538,2,Ninety-seven is smaller than sixty-two.,smaller_than
+geometry_truth,True,true,6401,3,Sixty-eight is smaller than seventy-one.,smaller_than
+geometry_truth,True,true,7175,4,Eighty-seven is smaller than ninety-nine.,smaller_than
+geometry_truth,True,true,6073,5,Fifty-nine is smaller than ninety-seven.,smaller_than
+geometry_truth,False,false,6937,6,Eighty-two is smaller than seventy-eight.,smaller_than
+geometry_truth,True,true,6688,7,Seventy-five is smaller than ninety-six.,smaller_than
+geometry_truth,False,false,6925,8,Eighty-two is smaller than sixty-five.,smaller_than
+geometry_truth,True,true,5775,9,Fifty-three is smaller than fifty-nine.,smaller_than
+geometry_truth,False,false,7192,10,Eighty-eight is smaller than sixty-eight.,smaller_than
+geometry_truth,False,false,3113,1,The Spanish word 'directo' means 'to eat'.,sp_en_trans
+geometry_truth,True,true,3286,2,The Spanish word 'mercado' means 'market'.,sp_en_trans
+geometry_truth,False,false,3324,3,The Spanish word 'pato' means 'shoulder'.,sp_en_trans
+geometry_truth,True,true,3318,4,The Spanish word 'burro' means 'donkey'.,sp_en_trans
+geometry_truth,True,true,2997,5,The Spanish word 'pero' means 'but'.,sp_en_trans
+geometry_truth,True,true,3206,6,The Spanish word 'aceite' means 'oil'.,sp_en_trans
+geometry_truth,True,true,3153,7,The Spanish word 'estrella' means 'star'.,sp_en_trans
+geometry_truth,False,false,3338,8,The Spanish word 'mariposa' means 'rose'.,sp_en_trans
+geometry_truth,False,false,3260,9,The Spanish word 'insecto' means 'then'.,sp_en_trans
+geometry_truth,False,false,3202,10,The Spanish word 'recibir' means 'time'.,sp_en_trans

@@ -1,0 +1,37 @@
+# Dataset-specific runs: the same grid run separately on each dataset
+# (scope <dataset>_last each). Last-token activations, canonical layers.
+#   python -m clustering.run_clustering clustering/configs/config_datasets_last.yaml
+
+output: clustering/results
+
+data:
+  datasets: [geometry_truth, harmful_harmless, pubmedqa_artificial,
+             pubmedqa_labeled, social_iqa, wildjailbreak, xstest]
+  variant: last
+  layers: [9, 17, 22, 29]
+  merge: false                # one full run per dataset
+
+pca:
+  components: [15, 25, 40, 50, "95%"]
+
+seeds: [0, 1, 2, 3, 4]
+pca_bootstrap: 5
+
+methods:
+  gmm:
+    covariance_type: [diag, full]
+    k: [4, 6, 8, 10, 12, 16, 20, 26, 32, 40]
+  mfa:
+    n_factors: [6, 8, 10, 14, 18]
+    k: [4, 6, 8, 10, 12, 16, 20, 26, 32, 40]
+  kmeans:
+    k:
+      pca: [4, 6, 8, 10, 12, 16, 20, 26, 32, 40]
+      raw: [4, 6, 8, 10, 12, 16, 20, 26, 32, 40]
+  leiden:
+    space: [pca]
+    resolution: [0.5, 1.0, 2.0]
+    n_neighbors: [15, 30]
+  hdbscan:
+    space: [pca]
+    min_cluster_size: [15, 30, 60]

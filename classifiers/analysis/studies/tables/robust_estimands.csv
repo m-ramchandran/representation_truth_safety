@@ -1,0 +1,41 @@
+collection,regime,estimand,auc,n,methods
+tf_wrapped_a,within CV,all methods,0.923,429,10
+tf_wrapped_a,within CV,replication-selected panel,0.971,132,"svm_linear, l2reg, lda"
+tf_wrapped_a,within CV,leave-target-out selector,0.9655,44,"l2reg, mlp, xgboost"
+tf_wrapped_a,within CV,oracle best per cell,0.9744999999999999,44,selected on test cell
+data_unwrap,within CV,all methods,0.908,440,10
+data_unwrap,within CV,replication-selected panel,0.9495,132,"l2reg, svm_linear, xgboost"
+data_unwrap,within CV,leave-target-out selector,0.949,44,"l2reg, mlp"
+data_unwrap,within CV,oracle best per cell,0.96,44,selected on test cell
+tf_wrapped_a,transfer,all methods,0.646,4290,10
+tf_wrapped_a,transfer,replication-selected panel,0.683,1320,"svm_rbf, mlp, l2reg"
+tf_wrapped_a,transfer,leave-target-out selector,0.696,440,"knn, svm_rbf"
+tf_wrapped_a,transfer,oracle best per cell,0.7555000000000001,440,selected on test cell
+data_unwrap,transfer,all methods,0.6,4400,10
+data_unwrap,transfer,replication-selected panel,0.619,1320,"svm_rbf, mlp, knn"
+data_unwrap,transfer,leave-target-out selector,0.6205,440,"mlp, svm_rbf"
+data_unwrap,transfer,oracle best per cell,0.694,440,selected on test cell
+tf_wrapped_a,leave-one-dataset-out,all methods,0.8,420,10
+tf_wrapped_a,leave-one-dataset-out,replication-selected panel,0.8254999999999999,132,"mlp, svm_rbf, knn"
+tf_wrapped_a,leave-one-dataset-out,leave-target-out selector,0.8385,44,"mlp, svm_rbf, xgboost"
+tf_wrapped_a,leave-one-dataset-out,oracle best per cell,0.8425,44,selected on test cell
+data_unwrap,leave-one-dataset-out,all methods,0.7595000000000001,440,10
+data_unwrap,leave-one-dataset-out,replication-selected panel,0.7985,132,"xgboost, svm_rbf, mlp"
+data_unwrap,leave-one-dataset-out,leave-target-out selector,0.7985,44,"mlp, xgboost"
+data_unwrap,leave-one-dataset-out,oracle best per cell,0.8105,44,selected on test cell
+tf_wrapped_a,leave-task-out,all methods,0.7015,440,10
+tf_wrapped_a,leave-task-out,replication-selected panel,0.7255,132,"svm_rbf, xgboost, mlp"
+tf_wrapped_a,leave-task-out,leave-target-out selector,0.7375,44,"qda, svm_rbf"
+tf_wrapped_a,leave-task-out,oracle best per cell,0.8035000000000001,44,selected on test cell
+data_unwrap,leave-task-out,all methods,0.667,440,10
+data_unwrap,leave-task-out,replication-selected panel,0.6815,132,"svm_rbf, qda, xgboost"
+data_unwrap,leave-task-out,leave-target-out selector,0.7004999999999999,44,svm_rbf
+data_unwrap,leave-task-out,oracle best per cell,0.7375,44,selected on test cell
+tf_wrapped_a,merged slices,all methods,0.889,429,10
+tf_wrapped_a,merged slices,replication-selected panel,0.906,132,"mlp, svm_linear, l1reg"
+tf_wrapped_a,merged slices,leave-target-out selector,0.9185000000000001,44,mlp
+tf_wrapped_a,merged slices,oracle best per cell,0.9185000000000001,44,selected on test cell
+data_unwrap,merged slices,all methods,0.867,440,10
+data_unwrap,merged slices,replication-selected panel,0.897,132,"mlp, xgboost, l2reg"
+data_unwrap,merged slices,leave-target-out selector,0.912,44,mlp
+data_unwrap,merged slices,oracle best per cell,0.912,44,selected on test cell

@@ -1,0 +1,7 @@
+prompt_type,score,score_label,auc,n
+vanilla,p_true,True versus False,0.7529692991999999,25000
+vanilla,p_safe,safe versus unsafe,0.818847568,25000
+vanilla,p_harmless,harmless versus harmful,0.8128276160000001,25000
+adversarial,p_true,True versus False,0.5419636928,25000
+adversarial,p_safe,safe versus unsafe,0.673720608,25000
+adversarial,p_harmless,harmless versus harmful,0.6258337408,25000
