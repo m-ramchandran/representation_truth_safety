@@ -3,9 +3,9 @@
 Training and evaluating activation probes on Gemma 3 4B activations, with Gemma Scope 2 sparse decompositions.
 Thirteen classifiers spanning linear and non-linear approaches are fit to read a binary property of a prompt (true/false,
 safe/unsafe, yes/no) from the residual stream, over six feature representations
-and four depths, on thirteen datasets spanning factual claims, medical question
+and four layers, on thirteen datasets spanning factual claims, medical question
 answering, jailbreak prompts, and commonsense reasoning. A separate unsupervised
-pass clusters the same activations.
+pass clusters the same activations using various clustering approaches (GMM, MFA, k-means, Leiden, HDBSCAN) and analyzes the dataset and label contributions of each estimated cluster. 
 
 Each fit is scored under three training regimes:
 
