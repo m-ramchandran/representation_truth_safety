@@ -1,0 +1,6 @@
+Class-mean directions transfer across label semantic types. Single-source
+difference-in-means transfer on original prompts, from the training dataset's
+label type (rows) to the test dataset's (columns); each cell is the median AUC
+over the dataset pairs of those types and the 68% and 88% depths, for Gemma
+(left) and Qwen (right). Cross-label transfer is higher for Qwen than Gemma
+across label types, but stays above chance for both models (0.61–0.86).

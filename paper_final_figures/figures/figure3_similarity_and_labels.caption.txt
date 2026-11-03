@@ -1,0 +1,10 @@
+Probe predictions largely agree across methods, and averaging them adds
+little. All panels pool both models and prompt framings. (a) Spearman
+correlation (ρ) between two probes' predictions for linear–linear,
+linear–nonlinear, and nonlinear–nonlinear pairs in each training regime
+(medians and inter-quartile ranges); agreement is relatively high (ρ =
+0.77–0.92). (b, left) Averaging the methods beats the median single method
+only slightly, and falls short of the best single method. (b, right) Neither
+uniform nor oracle-weighted ensembles of other datasets' probes recover
+within-target performance (medians over models, framings and depths). Each
+probe direction cannot be fully captured by the others.

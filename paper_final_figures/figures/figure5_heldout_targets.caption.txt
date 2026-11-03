@@ -1,0 +1,13 @@
+Transfer to held-out non-standard datasets stays above chance in every setting
+but one and below within-target performance, displaying some robustness of
+truth directions across intent framings and less common domains. Rows compare
+within-target, target-absent, and domain-absent linear probes with random-slopes
+models that use the shared direction plus a domain-specific or similarity-weighted
+deviation or the shared direction alone, for (a) WJB-adversarial and (b) VDS.
+All three probe rows use the same L2 probe, fixed in advance rather than
+chosen per scenario, as choosing it would take the held-out target's own
+labels; points are medians across the four layer depths, and color and fill
+refer to model and framing types respectively. Within-target AUC is 0.90–0.99
+versus 0.48–0.89 under transfer, the one below-chance value being
+WJB-adversarial with its whole domain absent on Gemma under original framing,
+and True/False framing improves performance by up to 0.20 AUC.

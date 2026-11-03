@@ -1,5 +1,5 @@
 # One experiment = one config. Submit with:
-#   python -m clustering.run_clustering clustering/configs/example_config.yaml
+#   python -m clustering.scripts.run_clustering clustering/configs/example_config.yaml
 # Already-saved fits are skipped on re-run (delete a run dir to refit it).
 
 scope: cities                 # dataset name, or a multidataset tag
@@ -12,8 +12,8 @@ inputs:
   - {layer: 22, path: /path/to/cities_L22.npz}
   - {layer: 29, path: /path/to/cities_L29.npz}
 
-# Data, form 2: the HF repo (anqiwang02/Activations); files download once and
-# stay in the local HF cache. Dataset names are the keys of load_data.DATASETS
+# Data, form 2: the dataset repo named by ACTIVATIONS_REPO; files download once
+# and stay in the local HF cache. Dataset names are the keys of load_data.DATASETS
 # (geometry_truth = its 9 sub-datasets as ONE dataset, sub-name in `topic`).
 # Layers are Scope layers.  merge: true -> one pooled run with dataset_id;
 # merge: false -> a separate full run per dataset.
@@ -24,7 +24,7 @@ inputs:
 #   merge: true
 
 # Leave-one-dataset-out (merged data: only), run separately with
-#   python -m clustering.leave_one_out clustering/configs/example_config.yaml
+#   python -m clustering.scripts.leave_one_out clustering/configs/example_config.yaml
 # leave_one_out:
 #   designs: [shared_pca, loo_pca]  # + loo_raw (no PCA, expensive)
 #   pc: 50

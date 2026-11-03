@@ -1,6 +1,6 @@
 # Dataset-specific runs: the same grid run separately on each dataset
 # (scope <dataset>_last each). Last-token activations, canonical layers.
-#   python -m clustering.run_clustering clustering/configs/config_datasets_last.yaml
+#   python -m clustering.scripts.run_clustering clustering/configs/config_datasets_last.yaml
 
 output: clustering/results
 

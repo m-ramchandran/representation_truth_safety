@@ -1,0 +1,188 @@
+% ---------------------------------------------------------------
+% Appendix C body text: "Additional experiments"
+%
+% One block per subsection. Each block is the prose only - paste it
+% under the \subsection heading that already exists in the draft; the
+% headings are repeated here as comments so the blocks are easy to place.
+%
+% Figure labels assumed (from paper_final_artifacts/figures.tex):
+%   \label{fig:activation-geometry}   Figure 1
+%   \label{fig:methods}               Figure 2
+%   \label{fig:pooled-training}       Figure 4
+%   \label{fig:heldout-targets}       Figure 5
+%   \label{fig:supp-framing}          Figure A1
+%   \label{fig:supp-depth}            Figure A2
+%   \label{fig:supp-features}         Figure A3
+%   \label{fig:supp-label-types}      Figure A4
+%   \label{fig:supp-geometry}         Figure A5
+% ---------------------------------------------------------------
+
+
+% ===============================================================
+% C.1  Unsupervised characterization of True/False prompt framing
+%      versus original prompts
+% ===============================================================
+
+Figure~\ref{fig:supp-framing} shows that the prompt template, rather than the
+binary label, accounts for the largest share of variation once both prompt
+formats are placed on a common map. The PCA behind this figure is fit on the
+original and True/False activations pooled, so that the framed prompts help
+define the basis they are drawn in; projecting them into a basis fit on the
+original prompts alone would make their distance from it partly an artifact of
+the fit. The two framings occupy largely disjoint regions in both models and
+separate along the leading component (24.7\% of the variance for Gemma, 18.3\%
+for Qwen), whereas the two label classes overlap throughout. Measured on the
+first four components, the two framings' mean activations are separated by
+1.1--1.2 times the root-mean-square spread of the full cloud, against 0.4--0.5
+for the two label classes. Panel (a) shows that the dataset structure of
+Figure~\ref{fig:activation-geometry} is reproduced inside each framing region:
+most datasets appear as a pair of clusters, one per template. Social IQa is the
+exception, as it has no original-prompt variant, so its two framings are
+identical activations and it is omitted from panel (b).
+
+This geometry constrains how framing can be used. Probes are fit and evaluated
+within a single framing throughout the paper, since a probe fit on one template
+would otherwise be evaluated in a region of activation space that its training
+data does not cover. The displacement does not remove label information:
+converting heterogeneous prompts into one declarative template improves
+transfer to held-out targets by up to 0.22 AUC
+(Figure~\ref{fig:heldout-targets}) and raises out-of-domain performance at
+every depth past 53\% (Figure~\ref{fig:supp-depth}). Prompt framing is
+therefore better treated as a change of coordinates that probes must be refit
+for than as a perturbation that a fitted probe can be expected to tolerate.
+
+
+% ===============================================================
+% C.2  Analyzing probe performance across different layers
+% ===============================================================
+
+Figure~\ref{fig:supp-depth} shows that probe performance is stable from 68\%
+depth onward, and that the depth at which transfer becomes possible depends on
+the model. Within-target performance is nearly flat: the median best-method AUC
+across datasets varies by at most 0.02 between 53\% and 100\% depth for every
+model and framing, so the choice of layer is close to immaterial when the
+target dataset is included in training. Under transfer the earliest depth
+behaves differently in the two models. Qwen at 53\% depth trails its own best
+later layer by 0.16 AUC when the target's domain is absent and by 0.20 AUC
+under one-source training, whereas Gemma trails by at most 0.08 and is
+marginally best at 53\% under domain-absent training on original prompts. From
+68\% onward every curve is flat to within 0.03 between consecutive depths, and
+True/False framing stays above original framing in both models at every depth
+in both transfer panels.
+
+The disagreement at 53\% depth is the reason we replicate each layer-dependent
+claim across both models and both framings rather than reporting a single
+layer. A study reading Qwen at an early layer would conclude that out-of-domain
+transfer is weak, and a study reading Gemma at the same layer would conclude
+that it is already near its ceiling; neither conclusion is a property of linear
+probing. Because the curves converge above 68\%, the main figures either fix
+88\% depth or aggregate over the four depths, and in that band the choice of
+layer contributes less to probe performance than the training regime does
+(Figure~\ref{fig:methods}).
+
+
+% ===============================================================
+% C.3  Comparing raw activations to alternative activation-based
+%      features
+% ===============================================================
+% NOTE: the draft already carries the SAE motivation sentence
+% ("Sparse autoencoders (SAEs) have achieved widespread importance ...
+% we were consequently interested in how these features performed in
+% probing."). The text below is written to follow it.
+
+We compare four alternatives to the raw last-token activation, each fit on
+training folds only: PCA retaining 95\% of the training variance, the per-layer
+SAE and transcoder dictionary activations, the three concatenated (PCA +
+dictionary), and a 100-bin histogram of the values in each activation vector.
+Dictionary features exist for Gemma only, since pretrained per-layer
+dictionaries are available for that model and not for Qwen (Appendix A.5).
+Figure~\ref{fig:supp-features} shows that none of these representations
+improves on the raw activation. Across 68--100\% depth, PCA at 95\% variance is
+effectively lossless, with a median change of 0.000 AUC under one-source
+training and $-0.004$ within target; SAE, transcoder, and PCA + dictionary
+features lose 0.01--0.04 AUC at the median. Sparse dictionary features are
+therefore close enough to the raw activation to be usable for probing, but
+nothing in the learned basis recovers separability that the raw vector lacks.
+
+Panel (a) uses the value histogram as a control on what neuron identity is
+worth: it preserves the marginal distribution of activation values and discards
+which coordinate produced each value. The histogram loses 0.004 AUC on Geometry
+of Truth and 0.006 on Harmful/Harmless, so those datasets are separable from
+the activation marginal alone, and the loss grows to 0.13 on VDS, 0.16 on
+WJB-Adversarial, and 0.31 on Anatomy; the median loss over all datasets is
+about 0.10. The datasets that depend most on coordinate-specific structure are
+the same ones that require dataset-specific random slopes in
+Figure~\ref{fig:pooled-training}, which is consistent with their separating
+directions lying outside the subspace the remaining datasets share.
+
+
+% ===============================================================
+% C.4  Assessing probe transfer across related concepts
+% ===============================================================
+
+Figure~\ref{fig:supp-label-types} shows that class-mean directions transfer
+between datasets whose labels assert different things. We partition the
+datasets by what $y=1$ means: True/False (the displayed statement is true),
+Yes/No (the correct answer to the displayed question is yes), and Safe/Unsafe
+(the displayed request is safe). Each cell is the median diff-in-means AUC over
+the ordered source--target dataset pairs of two label types at 68\% and 88\%
+depth on original prompts, with the ten pooled datasets as sources and all
+twelve as targets. Every cross-type cell is above chance, at 0.61--0.74 for
+Gemma and 0.77--0.86 for Qwen, so the three label conventions are sign-aligned:
+a direction fit to separate true statements from false ones scores safe
+requests above unsafe ones with no relabeling.
+Within-type transfer is the largest value in its row in four of the six rows;
+in the two True/False rows it ties with transfer to Yes/No targets (0.800
+against 0.802 for Gemma, 0.857 against 0.857 for Qwen), which is expected given
+that the correct answer to a Yes/No question is itself a truth claim. The Gemma
+matrix is asymmetric: directions fit on the safety datasets reach True/False
+and Yes/No targets at 0.66 and 0.61, while directions fit on those two types
+reach the safety datasets at 0.73 and 0.74.
+
+This partition is not a relabeling of the domain structure used elsewhere in
+the paper. The medical domain splits across it, with Anatomy in the True/False
+group and the two PubMedQA sets forming the Yes/No group, so the domain-absent
+regime and these label types withhold different training data. Read together
+with the higher within-type values, the cross-type results indicate that truth
+and safety are read out along related but not interchangeable directions, and
+that the relationship is stronger in Qwen than in Gemma. The Safe/Unsafe cells
+should be read alongside the fact that the safety datasets are also the most
+separable within target (Figure~\ref{fig:pooled-training}), which raises both
+the Safe/Unsafe diagonal and the columns leading into it.
+
+
+% ===============================================================
+% C.5  Predicting transfer from label-free activation geometry
+% ===============================================================
+
+Figure~\ref{fig:supp-geometry} shows that activation geometry predicts transfer
+between datasets in the same domain but not between domains. For each of the 16
+model $\times$ framing $\times$ depth settings we rank the 110 ordered
+source--target pairs (ten sources, twelve targets) by three similarity measures
+and correlate each ranking with the AUC of an $L_2$ probe trained on the source
+and evaluated on the target. The probe-direction cosine, the regularized
+Mahalanobis cosine of Appendix B.2, requires the target's labels and ranks
+transfer almost perfectly, at 0.87 for same-domain pairs and 0.96 for
+different-domain pairs. The two label-free measures separate sharply. The
+overlap of the datasets' 20 leading principal components ranks transfer at 0.59
+within a domain and 0.05 across domains, and the whitened distance between the
+datasets' mean activations ranks it at 0.12 within a domain and 0.00 across
+domains. Second-moment structure therefore carries considerably more
+information about transfer than the distance between dataset means does, and
+neither measure is informative once the two datasets belong to different
+domains.
+
+Panel (b) shows the mechanism behind the within-domain result. For pairs in the
+same domain, the absolute cosine between the two datasets' probe directions
+falls from 0.56 to 0.28 as the distance between their activation centroids
+grows, while for pairs in different domains it stays at 0.23--0.29 and does not
+depend on that distance. Proximity in activation space tracks agreement between
+separating directions only after the two datasets already share a domain. This
+bounds one construction used elsewhere in the paper: when a held-out target has
+no other dataset in its domain, the random-slopes prediction weights the
+available dataset adjustments by exactly this whitened centroid distance
+(Appendix B.3), which is the weakest of the three measures evaluated here, and
+the VDS rows of Figure~\ref{fig:heldout-targets} should be read with that
+limitation in mind. Selecting a transferable source dataset without target
+labels remains unresolved, and the covariance subspace measure is the more
+promising of the two label-free candidates.

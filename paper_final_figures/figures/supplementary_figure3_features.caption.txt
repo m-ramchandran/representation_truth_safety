@@ -1,0 +1,11 @@
+Alternative activation-based features do not improve on raw activations,
+though some come close. (a) Best-run AUC after replacing each activation
+vector with a 100-bin histogram, which discards neuron identity; bars run from
+chance to the raw-activation AUC and the loss is printed at right. Binned
+features are nearly lossless on Geometry of Truth and the easier safety
+datasets but lose more significantly on the unique or difficult datasets. (b)
+AUC difference relative to raw activations for within-target and one-source
+probes using alternative features at 68–100% layer depth. PCA keeping 95% of
+the variance is effectively lossless; dictionary learning features (SAE,
+transcoder), and PCA + dictionary features lose 0.01–0.05 AUC, binned features
+lose about 0.10.

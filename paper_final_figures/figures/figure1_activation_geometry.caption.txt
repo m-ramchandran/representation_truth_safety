@@ -1,0 +1,6 @@
+Dataset identity and label are distinguishable from the leading activation
+PCs. PCA fit per model to 199,652 last-token original-prompt activations from
+12 datasets at 88% depth, colored by (a) dataset and (b) label. The first two
+PCs predict dataset identity with 79%/73% accuracy for Gemma/Qwen (34%/30%
+dataset-averaged) but labels with only 0.61/0.70 AUC; all PCs raise these to
+99% (85%/88%) and 0.92/0.95.

@@ -1,0 +1,23 @@
+name: representation
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - pip
+  - pip:
+      - torch==2.9.1
+      - transformers==5.8.0
+      - huggingface_hub==1.14.0
+      - sae-lens==6.43.0
+      - numpy==2.3.5
+      - pandas==3.0.0
+      - scipy==1.16.3
+      - scikit-learn==1.8.0
+      - matplotlib==3.10.8
+      - xgboost==3.2.0
+      - joblib==1.5.2
+      - safetensors==0.7.0
+      # classifiers_gpu: cuML wheels live on NVIDIA's pip index and bring
+      # cupy with them. Keep this pin aligned with the experiment environment.
+      - --extra-index-url https://pypi.nvidia.com
+      - cuml-cu12==26.6.*

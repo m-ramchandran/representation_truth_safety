@@ -1,0 +1,14 @@
+Single-source probes have stable out-of-domain performance from 68% depth
+onward, but earlier-layer performance differs by model and training regime.
+For a given target dataset, method and depth, we first take the median AUC
+over the probes trained on each of the other datasets. For each combination of
+model, framing, regime, dataset, depth, we then take the best AUC over the ten
+single-source classification methods, and plot the median over datasets to
+show the typical dataset's best achievable out-of-domain AUC per training
+regime. Median best-method AUC across datasets is shown at 53%, 68%, 88%, and
+100% depth for (a) within-target, (b) domain-absent, and (c) one-source
+training; color is the model and line style the prompt framing. Within-target
+AUC varies by at most 0.02 across depths. For transfer performance (panels b
+and c), Qwen at 53% depth trails its best later layer by 0.16–0.21 AUC,
+whereas Gemma trails by at most 0.08. From 68% onward, consecutive depths
+differ by at most 0.03.

@@ -1,0 +1,25 @@
+Dataset-specific random effects improve pooled probes on datasets with
+non-standard prompts or domains. Results are shown for all 12 datasets,
+prompts under True/False framing, and 88% depth layer per model. (a) AUC of
+pooled L2 probes, the pooled difference in class means, domain- and
+dataset-level random-slopes models, the shared direction of the random-slopes
+fit on its own, and within-dataset L2 probes as a ceiling on performance. The
+pooled probe sits within 0.009 of the median within-dataset AUC, but the gap
+reaches 0.20 on Anatomy and 0.12 on VDS; using a dataset-level random slopes
+model brings every gap below 0.05 and beats the pooled probe. The pooled
+difference in class means, the direction that moves the model's answer in
+Figure 6, trails pooled L2 by 0.05–0.06 AUC in the median and by up to 0.15
+on WJB-adversarial, and beats it only on Gemma VDS (+0.08). (b) Signed
+Mahalanobis cosine similarity between the pooled L2 direction or each
+random-slopes component and the within-dataset L2 direction. Every inner
+product is taken through the Ledoit-Wolf regularized covariance of the pooled
+activations rather than in raw coordinates, so two coefficient vectors count
+as aligned when they order the activations alike; signs are retained. The
+shared random-slopes direction tracks pooled L2 closely (direct similarity
+0.83 for Gemma and 0.87 for Qwen) and is moderately aligned with a typical
+within-dataset direction, median 0.58 against 0.54 for pooled L2; dataset
+deviations align better still at 0.79, and the shared direction plus the
+dataset's own deviation reaches 0.83. Measured in raw coordinates the first
+two medians fall to 0.26 and 0.19 while the deviations are unchanged at 0.78,
+so most of the apparent disagreement between the pooled and within-dataset
+directions lies along directions the activations barely vary in.

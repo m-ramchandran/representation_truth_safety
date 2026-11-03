@@ -1,7 +1,7 @@
 # All datasets merged (geometry_truth's 9 sub-datasets count as ONE dataset;
 # their sub-names live in `topic`). Last-token activations, canonical layers.
-#   python -m clustering.run_clustering clustering/configs/config_merged_last.yaml   # full grid
-#   python -m clustering.leave_one_out  clustering/configs/config_merged_last.yaml   # LODO designs
+#   python -m clustering.scripts.run_clustering clustering/configs/config_merged_last.yaml   # full grid
+#   python -m clustering.scripts.leave_one_out  clustering/configs/config_merged_last.yaml   # LODO designs
 
 scope: merged_last
 output: clustering/results

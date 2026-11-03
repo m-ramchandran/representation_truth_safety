@@ -1,0 +1,23 @@
+Classifier weights restricted to the leading principal components of their
+training data, used as steering directions. We steer last-token activations
+at 88% depth on six true/false framed datasets with unit-length vectors; a
+step of 1 equals the dataset's class-mean separation, and the vertical axis
+is the resulting shift in True-versus-False log odds per step. Each
+probe weight vector (L2-regularized and random-slopes probes fitted on the
+target, on the pool, and on the domain-absent pool, the latter dashed) is
+projected onto the top 2, 10 or 50 principal components of the rows it was
+fitted on.
+Horizontal lines mark the difference-in-means directions on the target
+and on the domain-absent pool; bands show random vectors after the same
+projection onto the target's components (dark) and the domain-absent
+pool's components (light), median of 8 draws. Each panel reports the
+baseline model output AUC. With two components the probe weights steer as
+strongly as the difference in means, but random vectors in the same plane
+steer nearly as strongly, since a dataset's leading component is its class
+separation. With ten components the pool and domain-absent L2 probes still
+match the difference-in-means directions and stand clear of the noise band,
+whereas the target-trained probe loses much of its effect and the
+random-slopes probes are inconsistent. With fifty components every probe
+direction falls toward the noise band: the steering content of a fitted
+probe is confined to the few leading components of its training data and is
+diluted by the many further components it also weights.

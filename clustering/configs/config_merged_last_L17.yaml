@@ -1,5 +1,6 @@
 # config_merged_last.yaml restricted to layer 17, so the four layers can
-# run as parallel jobs, one per layer (same scope; results merge into one tree).
+# run as parallel Slurm jobs (same scope; results merge into one tree).
+#   sbatch clustering_merged_layers.sbatch
 
 scope: merged_last
 output: clustering/results

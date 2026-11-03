@@ -1,7 +1,0 @@
-factor,column,correlation_after_direction_alignment,p_value,n
-dataset-centre distance,centroid_distance,-0.1641455281702447,0.08661146258054915,110
-class-centroid distance,class_centroid_distance,-0.16067189075596444,0.09358090052052051,110
-same task,same_task,0.11595440591059783,0.22769358268960535,110
-source separability,source_label_gap_over_radius,-0.026378957755804636,0.7844289498333793,110
-target separability,target_label_gap_over_radius,0.36722672942841905,7.936525861290709e-05,110
-target within-CV AUC,target_within_cv_auc,0.38879201915382433,2.699064660356793e-05,110

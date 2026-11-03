@@ -1,0 +1,14 @@
+Activation geometry predicts transfer within a domain but not across domains,
+and without labels only the subspace measure does so well. (a) Spearman
+correlation across source–target dataset pairs between geometric similarity
+measures and AUCs of L2 probes trained on the source and tested on the target
+(median and interquartile range over 16 model × framing × depth settings). The
+probe-direction cosine, which needs the target's labels, ranks transfer almost
+perfectly (0.87–0.96). The two label-free similarity measures (overlap of the
+datasets' 20 top principal components, and covariance whitened distance
+between their mean activations) rank transfer performance moderately and
+weakly within domains (0.59 and 0.12) and not at all across them (0.05 and
+0.00). (b) Alignment of two datasets' probe directions by how close the
+centroids of the source and target dataset are: same-domain alignment falls
+from 0.56 to 0.28 with distance, while different-domain pairs are not
+dependent on distance (0.23–0.29).

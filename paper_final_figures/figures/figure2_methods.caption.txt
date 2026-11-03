@@ -1,0 +1,11 @@
+Linear probes match nonlinear alternatives across training regimes. Results
+are aggregated over all combinations of classification methods, datasets,
+source models, framings, and depths; regimes become less target-relevant from
+left to right. (a) Best-depth AUC per method; bars show the interquartile
+range and the dashed line the model output-logit AUC. (b) Paired AUC
+differences between different types of approaches. Random slopes, a linear
+probe with dataset adjustments, is counted as a linear method. Lines are
+medians over all combinations of factors listed above, and bands show the
+IQR. The best nonlinear and linear probes differ by at most 0.011 median AUC
+in every regime. Probes beat output logits by 0.08 AUC within target but by
+only 0.001 under one-source transfer.

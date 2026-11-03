@@ -1,0 +1,1001 @@
+statement,label,family,difficulty
+The nostril is below the armpit.,0,vertical,medium
+The crown of the head is on the head.,1,containment,hard
+The shoulder blade is on the hand.,0,containment,medium
+The elbow is higher than the shin.,1,vertical,easy
+The kneecap is lower than the heel.,0,vertical,medium
+The scalp is above the groin.,1,vertical,medium
+The instep is on the face.,0,containment,hard
+The cheek is higher than the forearm.,1,vertical,medium
+The nostril is on the nose.,1,containment,hard
+The thigh is above the toe.,1,vertical,easy
+The jaw is between the hairline and the eyelid.,0,between,medium
+The wrist is lower than the big toe.,0,vertical,easy
+The spine is in front of the abdomen.,0,frontback,medium
+The navel is higher than the knee.,1,vertical,easy
+The pupil is above the neck.,1,vertical,hard
+The waist is between the breast and the rib.,0,between,easy
+The instep is on the foot.,1,containment,hard
+The throat is above the thigh.,1,vertical,easy
+The palm is below the femur.,0,vertical,hard
+The elbow is higher than the coccyx.,1,vertical,hard
+The cheek is between the skull and the knee.,1,between,easy
+The rib is between the eye and the hip.,1,between,medium
+The elbow is below the buttock.,0,vertical,medium
+The hamstring is on the leg.,1,containment,medium
+The eyelash is on the face.,1,containment,medium
+The belly button is on the abdomen.,1,containment,easy
+The Adam's apple is below the instep.,0,vertical,hard
+The jaw is below the sacrum.,0,vertical,hard
+The nose is above the heel.,1,vertical,easy
+The shoulder is below the hip.,0,vertical,easy
+The mouth is above the instep.,1,vertical,hard
+The skull is higher than the toenail.,1,vertical,medium
+The toenail is on the toe.,1,containment,hard
+The earlobe is lower than the sole.,0,vertical,medium
+The eyebrow is above the arch of the foot.,1,vertical,medium
+The nostril is above the thumb.,1,vertical,medium
+The crown of the head is below the temple.,0,vertical,hard
+The eardrum is higher than the groin.,1,vertical,hard
+The eyelid is on the eye.,1,containment,hard
+The eye is between the crown of the head and the jaw.,1,between,hard
+The Adam's apple is below the fingernail.,0,vertical,medium
+The rib is below the calf.,0,vertical,easy
+The navel is higher than the ankle.,1,vertical,easy
+The eardrum is higher than the index finger.,1,vertical,hard
+The thigh is between the tailbone and the heel.,1,between,medium
+The ear is above the big toe.,1,vertical,easy
+The nipple is between the hairline and the pupil.,0,between,medium
+The hairline is lower than the knuckle.,0,vertical,medium
+The calf is below the toenail.,0,vertical,medium
+The forehead is lower than the chin.,0,vertical,hard
+The patella is on the knee.,1,containment,hard
+The temple is higher than the neck.,1,vertical,hard
+The crown of the head is lower than the mouth.,0,vertical,hard
+The scalp is above the breast.,1,vertical,medium
+The breast is on the abdomen.,0,containment,medium
+The neck is above the sole.,1,vertical,medium
+The nostril is higher than the toenail.,1,vertical,medium
+The shoulder blade is in front of the navel.,0,frontback,medium
+The eye is below the knee.,0,vertical,easy
+The breast is in front of the spine.,1,frontback,medium
+The finger is higher than the big toe.,1,vertical,easy
+The navel is in front of the back.,1,frontback,easy
+The philtrum is above the abdomen.,1,vertical,hard
+The triceps is below the pinky.,0,vertical,medium
+The breast is lower than the fingernail.,0,vertical,medium
+The knuckle is on the finger.,1,containment,hard
+The abdomen is behind the scapula.,0,frontback,hard
+The chest is in front of the shoulder blade.,1,frontback,medium
+The nostril is below the sole.,0,vertical,medium
+The shin is between the eyelid and the toe.,1,between,easy
+The tailbone is on the arm.,0,containment,medium
+The eyelid is on the head.,1,containment,medium
+The tooth is above the elbow.,1,vertical,medium
+The waist is lower than the knee.,0,vertical,easy
+The jaw is on the neck.,0,containment,medium
+The eardrum is higher than the sole.,1,vertical,hard
+The scapula is on the foot.,0,containment,hard
+The ear is lower than the breast.,0,vertical,medium
+The shoulder blade is behind the abdomen.,1,frontback,medium
+The throat is below the forearm.,0,vertical,medium
+The chin is below the shoulder blade.,0,vertical,medium
+The forearm is lower than the knee.,0,vertical,medium
+The tailbone is higher than the patella.,1,vertical,hard
+The toe is on the leg.,0,containment,easy
+The thumb is above the tibia.,1,vertical,hard
+The collarbone is above the coccyx.,1,vertical,hard
+The temple is below the elbow.,0,vertical,medium
+The scapula is in front of the breast.,0,frontback,hard
+The thigh is below the toe.,0,vertical,easy
+The chest is between the chin and the neck.,0,between,easy
+The abdomen is below the buttock.,0,vertical,hard
+The eyebrow is on the head.,1,containment,easy
+The eyelash is between the collarbone and the scapula.,0,between,hard
+The crown of the head is higher than the big toe.,1,vertical,hard
+The eyelid is above the nipple.,1,vertical,medium
+The septum is on the nose.,1,containment,hard
+The iris is higher than the rib.,1,vertical,hard
+The shoulder blade is behind the nipple.,1,frontback,medium
+The jaw is above the finger.,1,vertical,easy
+The finger is on the hand.,1,containment,easy
+The mouth is between the hairline and the big toe.,1,between,easy
+The shoulder blade is in front of the sternum.,0,frontback,hard
+The hip is between the cheekbone and the toenail.,1,between,easy
+The jaw is lower than the sole.,0,vertical,medium
+The fingernail is on the head.,0,containment,medium
+The throat is above the thumb.,1,vertical,easy
+The shoulder blade is behind the chest.,1,frontback,medium
+The biceps is higher than the kneecap.,1,vertical,medium
+The tailbone is between the breast and the toenail.,1,between,easy
+The nipple is lower than the finger.,0,vertical,easy
+The skull is below the tooth.,0,vertical,hard
+The navel is on the hand.,0,containment,easy
+The index finger is on the abdomen.,0,containment,easy
+The throat is between the pupil and the navel.,1,between,medium
+The eyelid is above the armpit.,1,vertical,medium
+The septum is lower than the nipple.,0,vertical,hard
+The femur is below the sole.,0,vertical,hard
+The forehead is lower than the abdomen.,0,vertical,easy
+The belly button is above the sole.,1,vertical,medium
+The belly button is below the toe.,0,vertical,easy
+The scapula is higher than the toenail.,1,vertical,hard
+The navel is lower than the knee.,0,vertical,easy
+The tooth is on the hand.,0,containment,easy
+The scapula is in front of the sternum.,0,frontback,hard
+The breast is higher than the palm.,1,vertical,easy
+The philtrum is lower than the knuckle.,0,vertical,hard
+The nipple is in front of the shoulder blade.,1,frontback,medium
+The back is in front of the belly button.,0,frontback,easy
+The navel is between the tooth and the calf.,1,between,easy
+The nape is lower than the knee.,0,vertical,hard
+The kneecap is above the toenail.,1,vertical,medium
+The eye is above the collarbone.,1,vertical,medium
+The shoulder is higher than the big toe.,1,vertical,easy
+The chin is between the scalp and the buttock.,1,between,medium
+The abdomen is in front of the back.,1,frontback,easy
+The earlobe is above the neck.,1,vertical,hard
+The navel is behind the scapula.,0,frontback,hard
+The jaw is above the tailbone.,1,vertical,medium
+The eyelash is on the eye.,1,containment,hard
+The shoulder blade is on the torso.,1,containment,medium
+The big toe is on the abdomen.,0,containment,easy
+The chin is between the ear and the cheek.,0,between,easy
+The scapula is behind the abdomen.,1,frontback,hard
+The cheekbone is below the coccyx.,0,vertical,hard
+The nose is higher than the fingertip.,1,vertical,medium
+The tailbone is higher than the femur.,1,vertical,hard
+The scalp is higher than the philtrum.,1,vertical,hard
+The femur is on the leg.,1,containment,hard
+The belly button is on the torso.,1,containment,easy
+The calf is on the leg.,1,containment,easy
+The iris is above the nipple.,1,vertical,hard
+The eye is below the triceps.,0,vertical,medium
+The temple is higher than the groin.,1,vertical,medium
+The tailbone is higher than the toe.,1,vertical,medium
+The pinky is on the hand.,1,containment,medium
+The sacrum is between the cheek and the chin.,0,between,hard
+The eyelash is on the neck.,0,containment,hard
+The eardrum is between the crown of the head and the scalp.,0,between,hard
+The nostril is between the skull and the spine.,1,between,medium
+The rib is on the head.,0,containment,easy
+The scapula is below the ankle.,0,vertical,hard
+The eyebrow is lower than the index finger.,0,vertical,easy
+The armpit is above the abdomen.,1,vertical,medium
+The armpit is above the ankle.,1,vertical,medium
+The thigh is lower than the toenail.,0,vertical,medium
+The jaw is higher than the fingernail.,1,vertical,medium
+The calf is between the nose and the ankle.,1,between,easy
+The throat is above the sacrum.,1,vertical,hard
+The rib is between the jaw and the shin.,1,between,easy
+The sternum is on the leg.,0,containment,hard
+The forehead is on the abdomen.,0,containment,easy
+The skull is higher than the shoulder blade.,1,vertical,medium
+The breast is below the femur.,0,vertical,hard
+The forehead is on the head.,1,containment,easy
+The crown of the head is below the heel.,0,vertical,hard
+The lip is below the knuckle.,0,vertical,medium
+The instep is on the neck.,0,containment,hard
+The cheekbone is on the face.,1,containment,medium
+The nose is below the patella.,0,vertical,hard
+The shoulder blade is higher than the palm.,1,vertical,medium
+The iris is higher than the pinky.,1,vertical,hard
+The jaw is below the finger.,0,vertical,easy
+The jaw is lower than the palm.,0,vertical,easy
+The nostril is higher than the navel.,1,vertical,medium
+The sacrum is on the back.,1,containment,hard
+The nipple is on the chest.,1,containment,easy
+The breast is below the abdomen.,0,vertical,medium
+The Adam's apple is on the throat.,1,containment,hard
+The big toe is on the leg.,0,containment,easy
+The eyelid is on the abdomen.,0,containment,medium
+The coccyx is on the leg.,0,containment,hard
+The crown of the head is lower than the philtrum.,0,vertical,hard
+The chest is between the eye and the Adam's apple.,0,between,medium
+The patella is on the arm.,0,containment,hard
+The sole is between the Adam's apple and the navel.,0,between,medium
+The collarbone is between the philtrum and the big toe.,1,between,hard
+The ankle is between the eyebrow and the navel.,0,between,easy
+The mouth is above the fingertip.,1,vertical,medium
+The scalp is above the knee.,1,vertical,medium
+The jaw is below the wrist.,0,vertical,easy
+The belly button is between the Adam's apple and the kneecap.,1,between,easy
+The earlobe is on the head.,1,containment,medium
+The cheek is below the tibia.,0,vertical,hard
+The chest is above the big toe.,1,vertical,easy
+The cheek is above the sternum.,1,vertical,hard
+The breast is between the eye and the throat.,0,between,easy
+The pinky is on the chest.,0,containment,medium
+The big toe is on the foot.,1,containment,easy
+The scapula is behind the breast.,1,frontback,hard
+The ear is between the skull and the chin.,1,between,hard
+The earlobe is between the skull and the nipple.,1,between,medium
+The rib is below the thigh.,0,vertical,easy
+The throat is below the big toe.,0,vertical,easy
+The belly button is higher than the buttock.,1,vertical,hard
+The collarbone is between the eyelash and the temple.,0,between,medium
+The eye is on the face.,1,containment,easy
+The Adam's apple is higher than the belly button.,1,vertical,medium
+The knee is between the eardrum and the toenail.,1,between,hard
+The coccyx is on the face.,0,containment,hard
+The groin is between the spine and the ankle.,1,between,easy
+The big toe is between the scalp and the jaw.,0,between,medium
+The back is in front of the sternum.,0,frontback,hard
+The eardrum is lower than the forearm.,0,vertical,hard
+The big toe is between the rib and the buttock.,0,between,medium
+The eye is higher than the arch of the foot.,1,vertical,medium
+The crown of the head is below the neck.,0,vertical,hard
+The tooth is below the finger.,0,vertical,easy
+The back is behind the abdomen.,1,frontback,easy
+The forehead is higher than the heel.,1,vertical,easy
+The nose is between the crown of the head and the arch of the foot.,1,between,hard
+The shoulder is above the ankle.,1,vertical,easy
+The breast is on the chest.,1,containment,easy
+The hairline is on the leg.,0,containment,medium
+The shoulder blade is on the back.,1,containment,medium
+The philtrum is lower than the kneecap.,0,vertical,hard
+The sacrum is below the ankle.,0,vertical,hard
+The shoulder blade is behind the breast.,1,frontback,medium
+The eyebrow is below the navel.,0,vertical,easy
+The elbow is below the calf.,0,vertical,easy
+The eardrum is below the throat.,0,vertical,hard
+The earlobe is below the toenail.,0,vertical,medium
+The tooth is higher than the ankle.,1,vertical,easy
+The coccyx is below the sole.,0,vertical,hard
+The pinky is below the sole.,0,vertical,medium
+The mouth is lower than the toe.,0,vertical,easy
+The philtrum is between the crown of the head and the abdomen.,1,between,hard
+The temple is on the head.,1,containment,medium
+The neck is above the toe.,1,vertical,easy
+The chin is higher than the belly button.,1,vertical,easy
+The jaw is above the wrist.,1,vertical,easy
+The scalp is above the femur.,1,vertical,hard
+The eye is higher than the waist.,1,vertical,easy
+The nose is above the index finger.,1,vertical,easy
+The ear is on the neck.,0,containment,medium
+The eyelid is higher than the fingertip.,1,vertical,medium
+The shin is on the foot.,0,containment,easy
+The sacrum is on the arm.,0,containment,hard
+The philtrum is between the forehead and the sacrum.,1,between,hard
+The abdomen is higher than the ankle.,1,vertical,easy
+The scalp is below the neck.,0,vertical,medium
+The hairline is lower than the hamstring.,0,vertical,medium
+The eyebrow is below the waist.,0,vertical,easy
+The philtrum is below the thumb.,0,vertical,hard
+The kneecap is on the arm.,0,containment,hard
+The eyelash is below the heel.,0,vertical,medium
+The eardrum is higher than the neck.,1,vertical,hard
+The cheekbone is below the groin.,0,vertical,medium
+The belly button is between the eyebrow and the chest.,0,between,easy
+The tailbone is on the torso.,1,containment,medium
+The skull is higher than the nape.,1,vertical,hard
+The chest is below the palm.,0,vertical,easy
+The lip is below the finger.,0,vertical,easy
+The hairline is on the head.,1,containment,medium
+The eye is on the neck.,0,containment,medium
+The shoulder blade is on the chest.,0,containment,hard
+The lip is higher than the belly button.,1,vertical,easy
+The eyebrow is between the mouth and the tooth.,0,between,easy
+The cheek is below the knuckle.,0,vertical,medium
+The breast is behind the back.,0,frontback,easy
+The scapula is below the coccyx.,0,vertical,hard
+The spine is in front of the belly button.,0,frontback,medium
+The palm is on the leg.,0,containment,easy
+The palm is on the chest.,0,containment,easy
+The navel is behind the spine.,0,frontback,medium
+The biceps is higher than the fingernail.,1,vertical,medium
+The breast is above the heel.,1,vertical,easy
+The skull is on the neck.,0,containment,hard
+The ear is below the chest.,0,vertical,medium
+The cheek is on the leg.,0,containment,easy
+The mouth is lower than the shin.,0,vertical,easy
+The eyelid is on the arm.,0,containment,medium
+The shoulder blade is in front of the belly button.,0,frontback,medium
+The spine is behind the belly button.,1,frontback,medium
+The breast is behind the shoulder blade.,0,frontback,medium
+The eye is between the chin and the thigh.,0,between,easy
+The nostril is on the foot.,0,containment,medium
+The fingernail is on the finger.,1,containment,hard
+The nipple is on the hand.,0,containment,easy
+The philtrum is below the abdomen.,0,vertical,hard
+The palm is below the ankle.,0,vertical,easy
+The earlobe is on the neck.,0,containment,hard
+The shin is between the navel and the arch of the foot.,1,between,easy
+The scapula is behind the nipple.,1,frontback,hard
+The nostril is on the face.,1,containment,medium
+The tailbone is between the spine and the abdomen.,0,between,medium
+The finger is on the face.,0,containment,easy
+The nose is higher than the biceps.,1,vertical,medium
+The chin is higher than the palm.,1,vertical,easy
+The shoulder is below the fingertip.,0,vertical,medium
+The nipple is lower than the groin.,0,vertical,medium
+The crown of the head is below the chin.,0,vertical,hard
+The eyebrow is on the leg.,0,containment,easy
+The heel is on the foot.,1,containment,easy
+The wrist is above the ankle.,1,vertical,easy
+The eyebrow is below the wrist.,0,vertical,easy
+The knee is on the chest.,0,containment,easy
+The pupil is above the toe.,1,vertical,medium
+The breast is above the toe.,1,vertical,easy
+The shoulder blade is in front of the chest.,0,frontback,medium
+The calf is on the abdomen.,0,containment,easy
+The philtrum is above the femur.,1,vertical,hard
+The jaw is between the skull and the shin.,1,between,easy
+The groin is lower than the sole.,0,vertical,medium
+The ear is below the wrist.,0,vertical,easy
+The skull is below the earlobe.,0,vertical,hard
+The cheek is higher than the abdomen.,1,vertical,easy
+The eye is on the back.,0,containment,easy
+The elbow is lower than the knee.,0,vertical,easy
+The scapula is on the torso.,1,containment,hard
+The shoulder is above the knuckle.,1,vertical,medium
+The abdomen is in front of the scapula.,1,frontback,hard
+The shin is on the leg.,1,containment,easy
+The biceps is above the wrist.,1,vertical,medium
+The ear is above the shoulder blade.,1,vertical,medium
+The palm is lower than the kneecap.,0,vertical,medium
+The skull is on the arm.,0,containment,medium
+The eyelash is between the crown of the head and the sole.,1,between,hard
+The crown of the head is below the groin.,0,vertical,hard
+The septum is between the skull and the nape.,1,between,hard
+The nose is higher than the wrist.,1,vertical,easy
+The mouth is between the scalp and the calf.,1,between,easy
+The shin is on the chest.,0,containment,easy
+The spine is on the torso.,1,containment,medium
+The navel is lower than the heel.,0,vertical,easy
+The back is behind the navel.,1,frontback,easy
+The pupil is between the abdomen and the arch of the foot.,0,between,medium
+The crown of the head is on the foot.,0,containment,hard
+The spine is behind the chest.,1,frontback,medium
+The shoulder blade is between the forehead and the shin.,1,between,easy
+The chin is on the chest.,0,containment,easy
+The rib is higher than the toe.,1,vertical,easy
+The armpit is lower than the triceps.,0,vertical,hard
+The eyelash is above the ankle.,1,vertical,medium
+The forearm is on the arm.,1,containment,medium
+The palm is below the fingertip.,0,vertical,hard
+The navel is in front of the spine.,1,frontback,medium
+The forehead is on the face.,1,containment,easy
+The shoulder blade is behind the navel.,1,frontback,medium
+The navel is on the torso.,1,containment,easy
+The breast is higher than the big toe.,1,vertical,easy
+The shoulder is below the finger.,0,vertical,easy
+The navel is on the back.,0,containment,easy
+The toenail is on the hand.,0,containment,hard
+The jaw is above the buttock.,1,vertical,medium
+The groin is between the scalp and the spine.,0,between,medium
+The sternum is behind the scapula.,0,frontback,hard
+The toenail is between the throat and the calf.,0,between,medium
+The scalp is below the triceps.,0,vertical,medium
+The scapula is in front of the abdomen.,0,frontback,hard
+The ear is lower than the shin.,0,vertical,easy
+The neck is higher than the index finger.,1,vertical,easy
+The cheekbone is on the head.,1,containment,medium
+The throat is below the thigh.,0,vertical,easy
+The tooth is on the face.,1,containment,easy
+The cheek is lower than the fingernail.,0,vertical,medium
+The collarbone is higher than the palm.,1,vertical,medium
+The abdomen is between the pupil and the temple.,0,between,medium
+The belly button is behind the spine.,0,frontback,medium
+The lip is below the big toe.,0,vertical,easy
+The nipple is higher than the coccyx.,1,vertical,hard
+The eyelash is on the leg.,0,containment,medium
+The armpit is lower than the buttock.,0,vertical,medium
+The eyebrow is below the finger.,0,vertical,easy
+The forehead is below the elbow.,0,vertical,easy
+The armpit is lower than the thumb.,0,vertical,medium
+The chin is on the neck.,0,containment,medium
+The nostril is higher than the tibia.,1,vertical,hard
+The back is behind the chest.,1,frontback,easy
+The abdomen is below the sacrum.,0,vertical,hard
+The jaw is higher than the abdomen.,1,vertical,easy
+The breast is below the patella.,0,vertical,hard
+The iris is above the coccyx.,1,vertical,hard
+The palm is above the shin.,1,vertical,easy
+The collarbone is lower than the sacrum.,0,vertical,hard
+The calf is between the nostril and the toe.,1,between,easy
+The toe is between the tooth and the nipple.,0,between,easy
+The kneecap is between the eyebrow and the philtrum.,0,between,hard
+The coccyx is lower than the kneecap.,0,vertical,hard
+The throat is higher than the toe.,1,vertical,easy
+The scapula is higher than the instep.,1,vertical,hard
+The tibia is between the sacrum and the arch of the foot.,1,between,hard
+The shin is between the neck and the abdomen.,0,between,easy
+The mouth is lower than the ankle.,0,vertical,easy
+The cheek is above the big toe.,1,vertical,easy
+The back is behind the breast.,1,frontback,easy
+The ear is higher than the thumb.,1,vertical,easy
+The hamstring is higher than the calf.,1,vertical,medium
+The femur is on the neck.,0,containment,hard
+The chest is in front of the spine.,1,frontback,medium
+The nose is between the skull and the scalp.,0,between,medium
+The scalp is higher than the sternum.,1,vertical,hard
+The philtrum is below the index finger.,0,vertical,hard
+The chin is on the face.,1,containment,easy
+The shoulder blade is between the crown of the head and the tooth.,0,between,hard
+The nipple is below the tibia.,0,vertical,hard
+The buttock is below the arch of the foot.,0,vertical,medium
+The belly button is in front of the back.,1,frontback,easy
+The nape is on the abdomen.,0,containment,hard
+The chest is behind the back.,0,frontback,easy
+The sternum is in front of the spine.,1,frontback,hard
+The temple is above the jaw.,1,vertical,hard
+The neck is above the finger.,1,vertical,easy
+The lip is lower than the spine.,0,vertical,medium
+The knee is lower than the tibia.,0,vertical,hard
+The cheek is lower than the scapula.,0,vertical,hard
+The thigh is on the leg.,1,containment,easy
+The scapula is in front of the chest.,0,frontback,hard
+The finger is lower than the kneecap.,0,vertical,medium
+The ear is on the head.,1,containment,easy
+The forearm is on the abdomen.,0,containment,medium
+The nipple is behind the shoulder blade.,0,frontback,medium
+The eyebrow is higher than the spine.,1,vertical,medium
+The eye is higher than the thigh.,1,vertical,easy
+The iris is above the belly button.,1,vertical,hard
+The skull is below the triceps.,0,vertical,medium
+The shin is between the tooth and the toenail.,1,between,easy
+The triceps is higher than the thumb.,1,vertical,medium
+The nostril is lower than the buttock.,0,vertical,medium
+The cheekbone is higher than the pinky.,1,vertical,medium
+The jaw is between the eyebrow and the sternum.,1,between,hard
+The earlobe is higher than the heel.,1,vertical,medium
+The knee is between the eyelash and the shin.,1,between,easy
+The pupil is on the eye.,1,containment,hard
+The forearm is below the thigh.,0,vertical,medium
+The jaw is higher than the hip.,1,vertical,easy
+The sternum is on the back.,0,containment,hard
+The fingertip is on the foot.,0,containment,hard
+The spine is behind the abdomen.,1,frontback,medium
+The chin is below the finger.,0,vertical,easy
+The eye is between the jaw and the spine.,0,between,medium
+The sacrum is on the chest.,0,containment,hard
+The ear is higher than the heel.,1,vertical,easy
+The breast is on the foot.,0,containment,easy
+The waist is higher than the ankle.,1,vertical,easy
+The nose is higher than the elbow.,1,vertical,easy
+The breast is in front of the scapula.,1,frontback,hard
+The mouth is higher than the abdomen.,1,vertical,easy
+The rib is between the crown of the head and the cheek.,0,between,hard
+The cheekbone is lower than the neck.,0,vertical,hard
+The breast is between the crown of the head and the instep.,1,between,hard
+The ear is between the crown of the head and the groin.,1,between,hard
+The forehead is below the instep.,0,vertical,hard
+The throat is between the skull and the eye.,0,between,medium
+The nape is on the neck.,1,containment,hard
+The crown of the head is higher than the sacrum.,1,vertical,hard
+The chest is behind the shoulder blade.,0,frontback,medium
+The eyebrow is on the foot.,0,containment,easy
+The nipple is higher than the femur.,1,vertical,hard
+The temple is lower than the scapula.,0,vertical,hard
+The chest is between the nostril and the belly button.,1,between,medium
+The femur is below the toe.,0,vertical,hard
+The thumb is on the hand.,1,containment,easy
+The spine is in front of the nipple.,0,frontback,medium
+The collarbone is below the heel.,0,vertical,medium
+The patella is between the hairline and the tailbone.,0,between,hard
+The scapula is between the earlobe and the toenail.,1,between,hard
+The shoulder blade is in front of the nipple.,0,frontback,medium
+The crown of the head is higher than the waist.,1,vertical,hard
+The eyebrow is on the face.,1,containment,easy
+The scapula is in front of the nipple.,0,frontback,hard
+The eyelash is on the head.,1,containment,medium
+The abdomen is below the instep.,0,vertical,hard
+The nipple is in front of the spine.,1,frontback,medium
+The eyebrow is above the elbow.,1,vertical,easy
+The spine is on the back.,1,containment,medium
+The nostril is below the knee.,0,vertical,medium
+The nape is above the tailbone.,1,vertical,hard
+The mouth is above the wrist.,1,vertical,easy
+The scalp is higher than the buttock.,1,vertical,medium
+The skull is lower than the mouth.,0,vertical,hard
+The belly button is behind the back.,0,frontback,easy
+The earlobe is higher than the coccyx.,1,vertical,hard
+The tooth is between the eyebrow and the toenail.,1,between,easy
+The nipple is higher than the toe.,1,vertical,easy
+The lip is higher than the knee.,1,vertical,easy
+The cheek is higher than the ankle.,1,vertical,easy
+The tooth is below the big toe.,0,vertical,easy
+The nostril is below the patella.,0,vertical,hard
+The mouth is on the head.,1,containment,easy
+The palm is on the hand.,1,containment,easy
+The scapula is on the leg.,0,containment,hard
+The mouth is lower than the heel.,0,vertical,easy
+The eye is on the head.,1,containment,easy
+The tooth is on the neck.,0,containment,medium
+The cheek is below the navel.,0,vertical,easy
+The eye is above the belly button.,1,vertical,easy
+The neck is between the eyebrow and the mouth.,0,between,easy
+The knee is on the leg.,1,containment,easy
+The forehead is between the tooth and the navel.,0,between,easy
+The nostril is above the femur.,1,vertical,hard
+The armpit is below the knee.,0,vertical,medium
+The scalp is above the belly button.,1,vertical,medium
+The eyelid is higher than the jaw.,1,vertical,hard
+The biceps is above the femur.,1,vertical,hard
+The Adam's apple is above the chest.,1,vertical,hard
+The waist is between the eyebrow and the throat.,0,between,easy
+The mouth is above the sacrum.,1,vertical,hard
+The toenail is on the foot.,1,containment,medium
+The temple is above the biceps.,1,vertical,medium
+The tooth is above the calf.,1,vertical,easy
+The spine is behind the breast.,1,frontback,medium
+The eardrum is above the hamstring.,1,vertical,hard
+The lip is lower than the patella.,0,vertical,hard
+The back is in front of the navel.,0,frontback,easy
+The spine is behind the nipple.,1,frontback,medium
+The hairline is between the heel and the big toe.,0,between,medium
+The forehead is below the toenail.,0,vertical,medium
+The forehead is above the finger.,1,vertical,easy
+The tooth is higher than the sole.,1,vertical,medium
+The tooth is between the iris and the ear.,0,between,hard
+The cheekbone is on the cheek.,1,containment,hard
+The scapula is behind the sternum.,1,frontback,hard
+The rib is on the hand.,0,containment,easy
+The scapula is above the knee.,1,vertical,hard
+The lip is on the mouth.,1,containment,medium
+The eyelash is above the collarbone.,1,vertical,medium
+The scapula is behind the chest.,1,frontback,hard
+The neck is below the finger.,0,vertical,easy
+The coccyx is above the heel.,1,vertical,hard
+The sacrum is higher than the tibia.,1,vertical,hard
+The collarbone is between the pupil and the groin.,1,between,medium
+The pupil is between the tibia and the shin.,0,between,hard
+The crown of the head is higher than the chest.,1,vertical,hard
+The sacrum is above the knee.,1,vertical,hard
+The hairline is above the septum.,1,vertical,hard
+The eye is above the index finger.,1,vertical,easy
+The earlobe is below the arch of the foot.,0,vertical,medium
+The buttock is below the instep.,0,vertical,hard
+The heel is between the eyebrow and the sternum.,0,between,hard
+The chest is in front of the scapula.,1,frontback,hard
+The nipple is below the thigh.,0,vertical,easy
+The cheek is on the neck.,0,containment,medium
+The kneecap is between the thigh and the ankle.,1,between,medium
+The eyebrow is above the navel.,1,vertical,easy
+The palm is higher than the thigh.,1,vertical,medium
+The fingertip is on the finger.,1,containment,hard
+The eyebrow is lower than the coccyx.,0,vertical,hard
+The tooth is higher than the shin.,1,vertical,easy
+The sternum is in front of the back.,1,frontback,hard
+The chest is lower than the heel.,0,vertical,easy
+The armpit is lower than the index finger.,0,vertical,medium
+The abdomen is behind the spine.,0,frontback,medium
+The nape is on the chest.,0,containment,hard
+The nipple is between the nose and the knee.,1,between,easy
+The ear is between the scalp and the skull.,0,between,medium
+The neck is below the nipple.,0,vertical,medium
+The tooth is on the arm.,0,containment,easy
+The spine is in front of the breast.,0,frontback,medium
+The throat is on the arm.,0,containment,easy
+The tooth is higher than the collarbone.,1,vertical,hard
+The back is in front of the nipple.,0,frontback,easy
+The belly button is in front of the scapula.,1,frontback,hard
+The philtrum is above the breast.,1,vertical,hard
+The back is in front of the breast.,0,frontback,easy
+The knee is between the navel and the thigh.,0,between,easy
+The nipple is between the nose and the tooth.,0,between,easy
+The patella is on the leg.,1,containment,hard
+The fingernail is higher than the toe.,1,vertical,medium
+The septum is lower than the scapula.,0,vertical,hard
+The spine is on the arm.,0,containment,medium
+The fingernail is above the arch of the foot.,1,vertical,medium
+The chest is lower than the ankle.,0,vertical,easy
+The eardrum is below the arch of the foot.,0,vertical,hard
+The hairline is higher than the rib.,1,vertical,medium
+The buttock is between the chest and the belly button.,0,between,medium
+The kneecap is on the knee.,1,containment,hard
+The throat is above the index finger.,1,vertical,easy
+The forearm is on the head.,0,containment,medium
+The cheekbone is on the foot.,0,containment,medium
+The abdomen is behind the shoulder blade.,0,frontback,medium
+The cheek is on the head.,1,containment,easy
+The ear is higher than the hip.,1,vertical,easy
+The belly button is above the knuckle.,1,vertical,medium
+The palm is lower than the calf.,0,vertical,easy
+The knuckle is higher than the toenail.,1,vertical,medium
+The navel is below the hamstring.,0,vertical,medium
+The tibia is between the chest and the sole.,1,between,hard
+The wrist is above the finger.,1,vertical,hard
+The scapula is lower than the palm.,0,vertical,hard
+The biceps is on the chest.,0,containment,medium
+The lip is between the forehead and the tailbone.,1,between,medium
+The ear is below the big toe.,0,vertical,easy
+The hairline is below the palm.,0,vertical,medium
+The belly button is in front of the spine.,1,frontback,medium
+The rib is on the torso.,1,containment,easy
+The throat is lower than the patella.,0,vertical,hard
+The Adam's apple is between the scalp and the tailbone.,1,between,medium
+The triceps is on the arm.,1,containment,medium
+The hairline is lower than the waist.,0,vertical,medium
+The nape is below the calf.,0,vertical,hard
+The navel is behind the shoulder blade.,0,frontback,medium
+The forehead is above the thigh.,1,vertical,easy
+The tibia is on the arm.,0,containment,hard
+The abdomen is in front of the spine.,1,frontback,medium
+The breast is behind the scapula.,0,frontback,hard
+The skull is below the Adam's apple.,0,vertical,medium
+The lip is on the face.,1,containment,easy
+The belly button is lower than the index finger.,0,vertical,medium
+The navel is in front of the shoulder blade.,1,frontback,medium
+The philtrum is higher than the navel.,1,vertical,hard
+The throat is above the tailbone.,1,vertical,medium
+The wrist is lower than the calf.,0,vertical,easy
+The biceps is on the arm.,1,containment,medium
+The scapula is in front of the belly button.,0,frontback,hard
+The nipple is behind the scapula.,0,frontback,hard
+The elbow is above the forearm.,1,vertical,hard
+The mouth is higher than the armpit.,1,vertical,medium
+The abdomen is below the calf.,0,vertical,easy
+The tailbone is between the pupil and the toe.,1,between,easy
+The belly button is in front of the shoulder blade.,1,frontback,medium
+The eyebrow is lower than the tooth.,0,vertical,hard
+The sacrum is between the ear and the tibia.,1,between,hard
+The cheekbone is above the breast.,1,vertical,medium
+The navel is lower than the sole.,0,vertical,medium
+The sole is on the foot.,1,containment,medium
+The lip is on the hand.,0,containment,easy
+The sternum is on the chest.,1,containment,hard
+The navel is behind the back.,0,frontback,easy
+The earlobe is lower than the spine.,0,vertical,medium
+The elbow is on the foot.,0,containment,easy
+The sternum is below the kneecap.,0,vertical,hard
+The crown of the head is higher than the jaw.,1,vertical,hard
+The pupil is lower than the tibia.,0,vertical,hard
+The throat is above the buttock.,1,vertical,medium
+The hairline is on the face.,1,containment,medium
+The nose is above the spine.,1,vertical,medium
+The eye is lower than the navel.,0,vertical,easy
+The buttock is higher than the patella.,1,vertical,hard
+The thumb is lower than the ankle.,0,vertical,easy
+The patella is between the mouth and the breast.,0,between,hard
+The eyelid is above the palm.,1,vertical,medium
+The eyebrow is below the jaw.,0,vertical,hard
+The eyelid is lower than the shoulder.,0,vertical,medium
+The scalp is below the collarbone.,0,vertical,medium
+The navel is on the chest.,0,containment,medium
+The tibia is between the neck and the shoulder blade.,0,between,hard
+The earlobe is between the scalp and the instep.,1,between,hard
+The chin is higher than the knee.,1,vertical,easy
+The rib is on the abdomen.,0,containment,medium
+The nipple is higher than the hip.,1,vertical,medium
+The jaw is above the thigh.,1,vertical,easy
+The shin is between the eyebrow and the scapula.,0,between,hard
+The elbow is lower than the ankle.,0,vertical,easy
+The septum is between the crown of the head and the skull.,0,between,hard
+The jaw is on the arm.,0,containment,easy
+The lip is higher than the hip.,1,vertical,easy
+The knee is above the ankle.,1,vertical,medium
+The skull is higher than the wrist.,1,vertical,medium
+The abdomen is behind the back.,0,frontback,easy
+The eye is below the heel.,0,vertical,easy
+The breast is below the knee.,0,vertical,easy
+The sternum is behind the shoulder blade.,0,frontback,hard
+The shoulder blade is between the neck and the toenail.,1,between,easy
+The mouth is between the forehead and the eyebrow.,0,between,easy
+The navel is on the abdomen.,1,containment,easy
+The arch of the foot is on the hand.,0,containment,hard
+The back is behind the belly button.,1,frontback,easy
+The tooth is higher than the hip.,1,vertical,easy
+The throat is below the thumb.,0,vertical,easy
+The sternum is in front of the shoulder blade.,1,frontback,hard
+The shoulder blade is in front of the abdomen.,0,frontback,medium
+The scapula is in front of the navel.,0,frontback,hard
+The chin is on the head.,1,containment,easy
+The shoulder is higher than the sacrum.,1,vertical,hard
+The neck is between the iris and the cheekbone.,0,between,hard
+The thigh is between the crown of the head and the shoulder blade.,0,between,hard
+The septum is on the face.,1,containment,hard
+The nipple is above the thumb.,1,vertical,easy
+The shoulder blade is in front of the breast.,0,frontback,medium
+The mouth is higher than the nipple.,1,vertical,medium
+The jaw is below the waist.,0,vertical,easy
+The chest is behind the scapula.,0,frontback,hard
+The septum is above the wrist.,1,vertical,hard
+The sternum is between the eyebrow and the coccyx.,1,between,hard
+The nipple is on the torso.,1,containment,easy
+The nostril is above the fingernail.,1,vertical,medium
+The breast is between the eye and the femur.,1,between,hard
+The nose is higher than the thigh.,1,vertical,easy
+The collarbone is above the heel.,1,vertical,medium
+The hairline is higher than the nostril.,1,vertical,hard
+The navel is between the eye and the throat.,0,between,easy
+The knee is on the face.,0,containment,easy
+The spine is higher than the navel.,1,vertical,hard
+The breast is on the torso.,1,containment,easy
+The nape is below the index finger.,0,vertical,hard
+The fingernail is on the hand.,1,containment,medium
+The abdomen is between the septum and the big toe.,1,between,hard
+The temple is between the scalp and the hip.,1,between,medium
+The crown of the head is above the patella.,1,vertical,hard
+The collarbone is between the crown of the head and the skull.,0,between,hard
+The iris is on the face.,1,containment,hard
+The tailbone is between the temple and the ear.,0,between,medium
+The pupil is lower than the hamstring.,0,vertical,medium
+The nipple is in front of the back.,1,frontback,easy
+The skull is lower than the instep.,0,vertical,hard
+The pinky is on the foot.,0,containment,hard
+The eyelid is higher than the nape.,1,vertical,hard
+The toe is on the foot.,1,containment,easy
+The jaw is above the sternum.,1,vertical,hard
+The instep is on the hand.,0,containment,hard
+The abdomen is below the toenail.,0,vertical,medium
+The index finger is below the toe.,0,vertical,easy
+The crown of the head is above the abdomen.,1,vertical,hard
+The earlobe is above the arch of the foot.,1,vertical,medium
+The lip is lower than the thumb.,0,vertical,easy
+The arch of the foot is on the foot.,1,containment,medium
+The hamstring is on the foot.,0,containment,medium
+The sternum is in front of the scapula.,1,frontback,hard
+The hip is between the collarbone and the navel.,0,between,medium
+The eyelid is on the face.,1,containment,medium
+The skull is above the forearm.,1,vertical,medium
+The belly button is behind the shoulder blade.,0,frontback,medium
+The index finger is on the hand.,1,containment,easy
+The scapula is lower than the calf.,0,vertical,hard
+The skull is above the ankle.,1,vertical,medium
+The cheek is on the abdomen.,0,containment,easy
+The abdomen is above the tailbone.,1,vertical,hard
+The back is behind the nipple.,1,frontback,easy
+The collarbone is above the wrist.,1,vertical,medium
+The sternum is below the instep.,0,vertical,hard
+The waist is lower than the patella.,0,vertical,hard
+The hip is below the patella.,0,vertical,hard
+The finger is on the head.,0,containment,easy
+The nostril is above the toe.,1,vertical,medium
+The calf is lower than the toe.,0,vertical,medium
+The crown of the head is below the nipple.,0,vertical,hard
+The forehead is lower than the index finger.,0,vertical,easy
+The thigh is between the skull and the nostril.,0,between,medium
+The thigh is below the knee.,0,vertical,hard
+The hamstring is between the tooth and the ankle.,1,between,easy
+The nostril is above the nape.,1,vertical,hard
+The nose is between the skull and the hip.,1,between,medium
+The chin is lower than the heel.,0,vertical,easy
+The sternum is lower than the hip.,0,vertical,hard
+The navel is between the neck and the tailbone.,1,between,medium
+The triceps is lower than the kneecap.,0,vertical,medium
+The eardrum is on the ear.,1,containment,hard
+The jaw is lower than the fingernail.,0,vertical,medium
+The eyebrow is higher than the triceps.,1,vertical,medium
+The throat is on the neck.,1,containment,easy
+The eyebrow is above the tibia.,1,vertical,hard
+The breast is in front of the shoulder blade.,1,frontback,medium
+The eye is lower than the instep.,0,vertical,hard
+The calf is on the hand.,0,containment,easy
+The nose is on the head.,1,containment,easy
+The neck is above the shin.,1,vertical,easy
+The neck is higher than the thumb.,1,vertical,easy
+The lip is lower than the triceps.,0,vertical,medium
+The nipple is on the arm.,0,containment,easy
+The philtrum is below the fingernail.,0,vertical,hard
+The chest is behind the spine.,0,frontback,medium
+The scapula is behind the belly button.,1,frontback,hard
+The ear is below the navel.,0,vertical,easy
+The thigh is between the throat and the nipple.,0,between,easy
+The nipple is behind the spine.,0,frontback,medium
+The chest is in front of the back.,1,frontback,easy
+The sternum is on the torso.,1,containment,hard
+The tailbone is on the back.,1,containment,medium
+The eyebrow is lower than the knee.,0,vertical,easy
+The lip is above the neck.,1,vertical,hard
+The neck is lower than the thigh.,0,vertical,easy
+The earlobe is lower than the hip.,0,vertical,medium
+The belly button is lower than the toenail.,0,vertical,medium
+The shoulder is lower than the tibia.,0,vertical,hard
+The eye is higher than the shoulder.,1,vertical,medium
+The tooth is between the scalp and the spine.,1,between,medium
+The mouth is higher than the belly button.,1,vertical,easy
+The nipple is in front of the scapula.,1,frontback,hard
+The skull is on the head.,1,containment,medium
+The kneecap is on the leg.,1,containment,medium
+The eyelash is below the collarbone.,0,vertical,medium
+The ear is higher than the ankle.,1,vertical,easy
+The eyebrow is higher than the lip.,1,vertical,hard
+The scalp is below the spine.,0,vertical,medium
+The shoulder is below the sole.,0,vertical,medium
+The elbow is on the arm.,1,containment,easy
+The ear is on the hand.,0,containment,easy
+The chest is above the instep.,1,vertical,hard
+The pupil is higher than the shoulder blade.,1,vertical,medium
+The eardrum is higher than the armpit.,1,vertical,hard
+The ear is lower than the triceps.,0,vertical,medium
+The philtrum is on the neck.,0,containment,hard
+The groin is between the neck and the arch of the foot.,1,between,easy
+The navel is in front of the scapula.,1,frontback,hard
+The scalp is on the head.,1,containment,medium
+The fingertip is on the hand.,1,containment,medium
+The philtrum is lower than the thigh.,0,vertical,hard
+The navel is between the nape and the coccyx.,1,between,hard
+The crown of the head is above the eyelid.,1,vertical,hard
+The breast is behind the spine.,0,frontback,medium
+The eyebrow is below the thigh.,0,vertical,easy
+The spine is behind the navel.,1,frontback,medium
+The elbow is higher than the ankle.,1,vertical,easy
+The coccyx is on the torso.,1,containment,hard
+The throat is lower than the heel.,0,vertical,easy
+The arch of the foot is on the abdomen.,0,containment,medium
+The toe is between the septum and the lip.,0,between,hard
+The abdomen is below the thumb.,0,vertical,medium
+The sacrum is between the scapula and the sole.,1,between,hard
+The nose is below the heel.,0,vertical,easy
+The collarbone is lower than the sternum.,0,vertical,hard
+The temple is lower than the thumb.,0,vertical,medium
+The sternum is behind the back.,0,frontback,hard
+The nose is on the abdomen.,0,containment,easy
+The scapula is behind the navel.,1,frontback,hard
+The earlobe is on the ear.,1,containment,hard
+The back is behind the sternum.,1,frontback,hard
+The navel is lower than the pinky.,0,vertical,medium
+The tooth is below the navel.,0,vertical,easy
+The hamstring is between the temple and the heel.,1,between,easy
+The nostril is on the head.,1,containment,medium
+The nipple is on the leg.,0,containment,medium
+The arch of the foot is between the nape and the collarbone.,0,between,hard
+The coccyx is on the abdomen.,0,containment,hard
+The shin is lower than the big toe.,0,vertical,medium
+The belly button is on the chest.,0,containment,medium
+The mouth is higher than the toe.,1,vertical,easy
+The throat is above the arch of the foot.,1,vertical,medium
+The navel is between the lip and the tooth.,0,between,easy
+The nose is below the palm.,0,vertical,easy
+The eye is below the thumb.,0,vertical,easy
+The nape is between the crown of the head and the eardrum.,0,between,hard
+The eardrum is lower than the neck.,0,vertical,hard
+The eye is above the shin.,1,vertical,easy
+The jaw is on the face.,1,containment,easy
+The thigh is on the arm.,0,containment,medium
+The tailbone is on the neck.,0,containment,medium
+The waist is between the sternum and the knee.,1,between,hard
+The nose is above the knee.,1,vertical,easy
+The nipple is behind the back.,0,frontback,easy
+The big toe is on the toe.,1,containment,medium
+The forehead is above the philtrum.,1,vertical,hard
+The chest is above the calf.,1,vertical,easy
+The sternum is lower than the finger.,0,vertical,hard
+The mouth is below the waist.,0,vertical,easy
+The scalp is higher than the nostril.,1,vertical,hard
+The toe is between the forehead and the chest.,0,between,easy
+The lip is on the head.,1,containment,easy
+The nape is below the sternum.,0,vertical,hard
+The shoulder blade is behind the belly button.,1,frontback,medium
+The tibia is on the leg.,1,containment,hard
+The throat is lower than the pinky.,0,vertical,medium
+The eyebrow is on the neck.,0,containment,medium
+The knuckle is on the hand.,1,containment,medium
+The sacrum is higher than the kneecap.,1,vertical,hard
+The sacrum is on the abdomen.,0,containment,hard
+The elbow is higher than the knuckle.,1,vertical,medium
+The scapula is between the eyelash and the eye.,0,between,hard
+The coccyx is on the back.,1,containment,hard
+The femur is lower than the calf.,0,vertical,hard
+The nostril is on the hand.,0,containment,medium
+The throat is above the toenail.,1,vertical,medium
+The jaw is above the sacrum.,1,vertical,hard
+The temple is on the abdomen.,0,containment,medium
+The finger is above the toe.,1,vertical,easy
+The throat is lower than the breast.,0,vertical,hard
+The thigh is below the sole.,0,vertical,medium
+The shoulder is lower than the buttock.,0,vertical,medium
+The throat is lower than the hip.,0,vertical,easy
+The crown of the head is below the patella.,0,vertical,hard
+The fingernail is on the foot.,0,containment,hard
+The neck is lower than the tailbone.,0,vertical,medium
+The navel is lower than the ankle.,0,vertical,easy
+The jaw is between the forehead and the hamstring.,1,between,easy
+The sacrum is on the torso.,1,containment,hard
+The nape is below the shoulder blade.,0,vertical,hard
+The Adam's apple is above the sacrum.,1,vertical,hard
+The heel is on the head.,0,containment,easy
+The spine is below the wrist.,0,vertical,medium
+The hairline is between the lip and the chin.,0,between,medium
+The lip is below the wrist.,0,vertical,easy
+The septum is below the instep.,0,vertical,hard
+The mouth is between the forehead and the rib.,1,between,medium
+The knee is on the arm.,0,containment,medium
+The shoulder is lower than the big toe.,0,vertical,easy
+The tooth is lower than the index finger.,0,vertical,easy
+The cheek is on the face.,1,containment,easy
+The mouth is on the neck.,0,containment,medium
+The back is in front of the abdomen.,0,frontback,easy
+The eyebrow is above the knuckle.,1,vertical,medium
+The tooth is lower than the thumb.,0,vertical,easy
+The cheek is between the scalp and the hip.,1,between,medium
+The jaw is between the pupil and the ear.,0,between,medium
+The skull is higher than the throat.,1,vertical,medium
+The neck is higher than the sternum.,1,vertical,hard
+The scalp is higher than the instep.,1,vertical,hard
+The eyebrow is below the tibia.,0,vertical,hard
+The temple is below the sternum.,0,vertical,hard
+The ear is lower than the heel.,0,vertical,easy
+The pupil is higher than the tailbone.,1,vertical,medium
+The philtrum is above the throat.,1,vertical,hard
+The hamstring is on the neck.,0,containment,medium
+The cheek is between the crown of the head and the coccyx.,1,between,hard
+The eyebrow is higher than the shin.,1,vertical,easy
+The philtrum is between the hairline and the tailbone.,1,between,hard
+The knuckle is lower than the arch of the foot.,0,vertical,medium
+The lip is between the skull and the hairline.,0,between,medium
+The spine is in front of the chest.,0,frontback,medium
+The spine is in front of the navel.,0,frontback,medium
+The abdomen is above the calf.,1,vertical,easy
+The eyebrow is lower than the thumb.,0,vertical,easy
+The sternum is behind the spine.,0,frontback,hard
+The temple is higher than the abdomen.,1,vertical,medium
+The back is in front of the chest.,0,frontback,easy
+The shoulder blade is behind the sternum.,1,frontback,hard
+The skull is higher than the buttock.,1,vertical,medium
+The biceps is below the hip.,0,vertical,medium
+The scapula is on the hand.,0,containment,hard
+The tibia is on the foot.,0,containment,hard
+The rib is on the chest.,1,containment,easy
+The breast is higher than the index finger.,1,vertical,easy
+The breast is between the collarbone and the big toe.,1,between,easy
+The ear is above the wrist.,1,vertical,easy
+The belly button is behind the scapula.,0,frontback,hard
+The nipple is between the septum and the kneecap.,1,between,hard
+The eye is lower than the thigh.,0,vertical,easy
+The neck is below the heel.,0,vertical,easy
+The tooth is below the waist.,0,vertical,easy
+The cheek is above the kneecap.,1,vertical,medium
+The nose is on the face.,1,containment,easy
+The thigh is between the hip and the shin.,1,between,medium
+The skull is lower than the rib.,0,vertical,medium
+The nostril is higher than the knuckle.,1,vertical,medium
+The chin is lower than the palm.,0,vertical,easy
+The chest is above the thumb.,1,vertical,easy
+The forehead is above the navel.,1,vertical,easy
+The cheek is above the tibia.,1,vertical,hard
+The lip is higher than the heel.,1,vertical,easy
+The cheekbone is on the neck.,0,containment,hard
+The spine is between the crown of the head and the eye.,0,between,hard
+The throat is on the chest.,0,containment,medium
+The philtrum is above the triceps.,1,vertical,hard
+The shoulder is below the wrist.,0,vertical,easy
+The tooth is above the finger.,1,vertical,easy
+The neck is below the toe.,0,vertical,easy
+The nose is lower than the finger.,0,vertical,easy
+The chin is below the waist.,0,vertical,medium
+The rib is above the big toe.,1,vertical,easy
+The iris is on the back.,0,containment,hard
+The crown of the head is between the cheekbone and the sole.,0,between,hard
+The septum is on the arm.,0,containment,hard
+The spine is on the chest.,0,containment,hard
+The belly button is higher than the calf.,1,vertical,easy
+The nostril is on the neck.,0,containment,hard
+The breast is higher than the thigh.,1,vertical,easy
+The spine is in front of the sternum.,0,frontback,hard
+The hip is lower than the instep.,0,vertical,hard
+The throat is below the index finger.,0,vertical,easy
+The lip is lower than the heel.,0,vertical,easy
+The scapula is on the back.,1,containment,hard
+The spine is lower than the kneecap.,0,vertical,medium
+The chest is below the thumb.,0,vertical,easy
+The forehead is higher than the triceps.,1,vertical,medium
+The jaw is below the elbow.,0,vertical,medium
+The philtrum is on the face.,1,containment,hard
+The mouth is lower than the throat.,0,vertical,hard
+The mouth is on the face.,1,containment,easy
+The eyelash is between the jaw and the neck.,0,between,medium
+The lip is higher than the palm.,1,vertical,easy
+The philtrum is above the nipple.,1,vertical,hard
+The spine is behind the sternum.,1,frontback,hard
+The pupil is on the face.,1,containment,medium
+The philtrum is between the crown of the head and the forehead.,0,between,hard
+The abdomen is in front of the shoulder blade.,1,frontback,medium
+The eye is lower than the buttock.,0,vertical,medium
+The philtrum is higher than the knuckle.,1,vertical,hard
+The tooth is on the mouth.,1,containment,medium
+The abdomen is higher than the patella.,1,vertical,hard
+The abdomen is between the eyebrow and the rib.,0,between,easy
+The eyelid is above the ankle.,1,vertical,medium
+The eyebrow is on the eye.,1,containment,medium
+The throat is below the kneecap.,0,vertical,medium
+The breast is in front of the back.,1,frontback,easy
+The jaw is on the head.,1,containment,easy
+The chest is lower than the spine.,0,vertical,hard
+The rib is on the leg.,0,containment,medium
+The jaw is on the chest.,0,containment,easy
+The rib is above the index finger.,1,vertical,easy
+The iris is on the eye.,1,containment,hard
+The temple is above the tibia.,1,vertical,hard

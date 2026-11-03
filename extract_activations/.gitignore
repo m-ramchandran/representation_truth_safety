@@ -1,0 +1,7 @@
+# Python bytecode and cache directories
+__pycache__/
+*.py[cod]
+
+# Slurm logs (keep the directories so #SBATCH --output=results/... resolves)
+*/*/results/*
+!*/*/results/.gitkeep

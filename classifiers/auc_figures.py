@@ -1,6 +1,6 @@
 """The runners' AUC figures, import-safe anywhere (matplotlib + csv
 only — no cuML), so they can be drawn by the GPU runners AND redrawn
-locally from the metrics csvs (analysis.redraw) when only
+locally from the metrics csvs (analysis_scripts.redraw) when only
 styling changed. runner_common re-exports everything here for the
 runners' use.
 """
@@ -21,16 +21,16 @@ install_rcparams()
 
 # Inches per heatmap cell. imshow keeps cells SQUARE, so the width per
 # column and the height per row must match: allocating more width than
-# height per cell (an earlier 1.5-wide / 0.75-tall split did) makes the
-# image fill only part of its panel and dumps the remainder into the gaps
-# between panels. Matching them keeps the cells large — bigger than that
-# old effective 0.75in — with no wasted space.
+# height per cell (a 1.5-wide / 0.75-tall split) makes
+# the image fill only part of its panel and dumps the remainder into the
+# gaps between panels. Matching them keeps the cells large — bigger than
+# that effective 0.75in — with no wasted space.
 CELL_IN = 0.85
 
 # canonical display order for the classifier methods
 METHOD_ORDER = ("l1reg", "l2reg", "svm_linear", "svm_rbf", "diff", "lda",
                 "qda", "knn", "mlp", "xgboost", "random_slopes",
-                "random_slopes_task", "moe")
+                "random_slopes_task", "moe", "moe_hard")
 
 
 def dataset_order(names, datasets) -> list:
@@ -101,13 +101,13 @@ def plot_method_by_dataset(tables_dir: Path, csv_name, tag: str, layers,
                            methods, datasets, *, xlabel: str, title: str,
                            out_path: Path) -> None:
     """The methods x test-datasets AUC figure shared by run_leave_out
-    and run_merged: one panel per layer, two panels per row, so all of a
-    feature set's layers land in a single figure (the suptitle carries
-    the run information, each panel just names its layer).
-    `csv_name(layer)` gives the layer's metrics csv inside `tables_dir`;
-    layers whose csv is missing are skipped, so a job that finished its
-    own layer draws whatever layers exist so far and the last one to
-    finish completes the figure."""
+    and run_merged: one panel per layer, two panels per row, with all of a
+    feature set's layers in a single figure. The suptitle carries the run
+    information, while each panel just
+    names its layer). `csv_name(layer)` gives the layer's metrics csv
+    inside `tables_dir`; layers whose csv is missing are skipped, so a
+    Slurm task that finished its own layer draws whatever layers exist
+    so far and the last task to finish completes the figure."""
     import matplotlib.pyplot as plt
 
     per_layer = {}
@@ -176,7 +176,7 @@ def plot_heatmaps(csv_path: Path, tag: str, layer: int, methods,
                   tests.index(r["test_dataset"])] = float(r["auc"])
         mats[method] = m
     # which method wins each (train, test) cell — that panel's cell gets
-    # the red box, so the best method per dataset is readable at a glance
+    # the red box marks the best method per dataset
     stack = np.stack([mats[m] for m in methods])
     best = np.full(stack.shape[1:], -1)
     finite = np.isfinite(stack).any(axis=0)

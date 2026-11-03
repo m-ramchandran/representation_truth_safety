@@ -1,0 +1,16 @@
+# Clustering module dependencies (installed on the compute cluster).
+numpy
+scipy
+scikit-learn>=1.8      # GaussianMixture, KMeans, HDBSCAN, MDS (new MDS API)
+torch                  # GPU MFA EM
+joblib                 # persist fitted models
+matplotlib             # plots
+pandas                 # read/group metrics.csv for plots
+pyyaml                 # run config files
+huggingface_hub        # download activations from ACTIVATIONS_REPO
+
+# clustering / embedding methods
+leidenalg              # Leiden community detection
+igraph                 # graph backend for Leiden
+umap-learn             # UMAP
+openTSNE               # fast t-SNE with out-of-sample transform (NESS ensemble)

@@ -1,8 +1,0 @@
-model,features,held_dataset_out_mae,held_dataset_out_rmse,prediction_rank_correlation,n_pairs
-dataset-centre distance,centroid_distance,0.08212915976264258,0.1064663440106844,0.23849636541335487,55
-covariance shape,covariance_shape_similarity,0.07402447884299539,0.10069047416375468,0.24975197969394278,55
-main variation directions,leading_variation_overlap,0.07257499838742344,0.09517646190889,0.41912732920471285,55
-distance + same task,"centroid_distance, same_task",0.07585920587886465,0.10495053016251102,0.1637836180572729,55
-same task + main variation directions,"same_task, leading_variation_overlap",0.06854457628943705,0.09332529189589157,0.3270261008125944,55
-diff-in-means alignment,label_axis_cosine,0.048231373301796415,0.060057285767395,0.8051011022432069,55
-alignment + main variation directions,"label_axis_cosine, leading_variation_overlap",0.04884961771245342,0.06175316153927583,0.8087086709228825,55

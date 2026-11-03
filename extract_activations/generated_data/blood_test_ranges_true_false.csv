@@ -1,0 +1,451 @@
+statement,label,area,perturbation,difficulty,pair_id,source
+The standard reference range for B-type natriuretic peptide (BNP) is 25 to 75 pg/mL.,0,cardiac,scale,easy,64,Merck Manuals
+The standard reference range for lactate dehydrogenase (LDH) is 125 to 220 U/L.,1,hepatic,none,hard,51,MedlinePlus (NIH)
+"In adult females, the reference range for creatinine is 0.59 to 1.04 mg/dL.",1,renal & electrolytes,none,hard,207,Mayo Clinic Labs
+"In adult males, the reference range for uric acid is 4.3 to 6.1 mg/dL.",0,renal & electrolytes,scale,easy,208,Univ. of Iowa Path Handbook
+"In adult females, the reference range for transferrin saturation is 0 to 68 %.",0,iron studies,scale,easy,166,Univ. of Iowa Path Handbook
+The standard reference range for absolute lymphocyte count is 1.0 to 4.0 ×10³/µL.,1,hematology,none,hard,15,NIH StatPearls
+"In adult females, the reference range for hematocrit is 35.5 to 44.9 %.",1,hematology,none,easy,154,Mayo Clinic
+The standard reference range for vitamin A (retinol) is 9.8 to 55.2 µg/dL.,0,vitamins & nutrition,shift,medium,113,Mayo Clinic Labs
+The standard reference range for troponin T is 0.01 to 0.02 ng/mL.,0,cardiac,shift,hard,63,Cleveland Clinic
+The standard reference range for fibrinogen is 200 to 400 mg/dL.,1,coagulation,none,medium,20,MedlinePlus (NIH)
+The standard reference range for lactate is 0.5 to 2.2 mmol/L.,1,renal & electrolytes,none,easy,40,MedlinePlus (NIH)
+The standard reference range for reverse T3 is 10 to 24 ng/dL.,1,thyroid,none,easy,94,Mayo Clinic Labs
+The standard reference range for blood urea nitrogen (BUN) is 6 to 20 mg/dL.,1,renal & electrolytes,none,medium,32,MedlinePlus (NIH)
+"In males aged 19-44 years, the reference range for NT-proBNP is 23 to 70 pg/mL.",0,cardiac,scale,easy,220,Univ. of Iowa Path Handbook
+The standard reference range for ammonia is 22 to 38 µg/dL.,0,hepatic,scale,easy,52,MedlinePlus (NIH)
+The standard reference range for reticulocyte count is 1.07 to 1.96 %.,0,hematology,scale,medium,8,MedlinePlus (NIH)
+The standard reference range for fasting glucose is 62 to 92 mg/dL.,0,renal & electrolytes,shift,hard,33,MedlinePlus (NIH)
+"In males aged 55-64 years, the reference range for NT-proBNP is 88 to 266 pg/mL.",0,cardiac,shift,medium,221,Univ. of Iowa Path Handbook
+The standard reference range for total calcium is 7.7 to 11.0 mg/dL.,0,renal & electrolytes,scale,easy,34,MedlinePlus (NIH)
+The standard reference range for globulin is 2.0 to 3.5 g/dL.,1,hepatic,none,medium,50,Cleveland Clinic
+The standard reference range for plasma renin activity is 1.4 to 4.9 ng/mL/hr.,0,endocrine,shift,hard,105,ARUP Laboratories
+"In women aged 18-39 years, the reference range for androstenedione is 0.26 to 2.14 ng/mL.",1,reproductive,none,easy,202,Univ. of Iowa Path Handbook
+The standard reference range for CD4 T-cell count is 430 to 1800 cells/µL.,1,inflammatory & immune,none,medium,83,ARUP Laboratories
+The standard reference range for plasma renin activity is 0.5 to 4.0 ng/mL/hr.,1,endocrine,none,hard,105,ARUP Laboratories
+The standard reference range for microalbumin (urine) is 0 to 25 mg/g.,1,renal & electrolytes,none,easy,43,Mayo Clinic Labs
+The standard reference range for 5'-nucleotidase is 8 to 22 U/L.,0,hepatic,shift,medium,53,MedlinePlus (NIH)
+"In adult males, the reference range for apolipoprotein A1 is 73 to 199 mg/dL.",0,lipids,scale,medium,218,Univ. of Iowa Path Handbook
+"In men aged 50 years and older, the reference range for total testosterone is 193 to 740 ng/dL.",1,reproductive,none,hard,171,Univ. of Iowa Path Handbook
+"In adult males, the reference range for luteinizing hormone is 2 to 12 mIU/mL.",1,reproductive,none,hard,186,Univ. of Michigan MLabs
+The standard reference range for plasminogen activity is 91 to 156 %.,0,coagulation,shift,hard,27,Univ. of Michigan MLabs
+"In women in the follicular phase, the reference range for progesterone is 0.2 to 1.5 ng/mL.",1,reproductive,none,easy,190,Univ. of Iowa Path Handbook
+"In men 50 years and older, the reference range for erythrocyte sedimentation rate is 0 to 20 mm/hr.",1,hematology,none,medium,158,NIH StatPearls
+The standard reference range for basophils (differential) is 0.5 to 1.0 %.,1,hematology,none,easy,13,NIH StatPearls
+The standard reference range for red cell distribution width (RDW) is 11.5 to 14.5 %.,1,hematology,none,hard,6,NIH StatPearls
+"In males older than 12 years, the reference range for anti-Müllerian hormone is 0.7 to 19 ng/mL.",1,reproductive,none,easy,205,Univ. of Michigan MLabs
+"In men aged 25-34 years, the reference range for DHEA-sulfate is 160 to 449 µg/dL.",1,reproductive,none,medium,197,ARUP Laboratories
+The standard reference range for alpha-fetoprotein is 1 to 9 ng/mL.,0,tumor markers,scale,hard,132,Univ. of Rochester (URMC)
+"In adult females, the reference range for growth hormone is 0.00 to 8.79 ng/mL.",0,endocrine,scale,hard,150,ARUP Laboratories
+The standard reference range for absolute neutrophil count is 0.0 to 9.6 ×10³/µL.,0,hematology,scale,medium,14,NIH StatPearls
+"In adult males, the reference range for transferrin saturation is 12 to 42 %.",0,iron studies,shift,hard,165,Univ. of Iowa Path Handbook
+"In women in the late follicular phase, the reference range for estradiol is 60 to 200 pg/mL.",1,reproductive,none,medium,179,Univ. of Michigan MLabs
+"In men aged 19-49 years, the reference range for total testosterone is 249 to 836 ng/dL.",1,reproductive,none,medium,170,Univ. of Iowa Path Handbook
+"In men aged 45-54 years, the reference range for DHEA-sulfate is 331 to 618 µg/dL.",0,reproductive,shift,easy,199,ARUP Laboratories
+The standard reference range for apolipoprotein B is 66 to 133 mg/dL.,1,lipids,none,hard,60,Cleveland Clinic
+The standard reference range for plasminogen activity is 75 to 140 %.,1,coagulation,none,hard,27,Univ. of Michigan MLabs
+The standard reference range for potassium is 3.6 to 5.2 mmol/L.,1,renal & electrolytes,none,medium,29,Mayo Clinic Labs
+"In women aged 12-45 years, the reference range for anti-Müllerian hormone is 1.7 to 8.6 ng/mL.",0,reproductive,scale,hard,204,Univ. of Michigan MLabs
+The standard reference range for CD8 T-cell count is 309 to 1101 cells/µL.,0,inflammatory & immune,scale,hard,84,ARUP Laboratories
+"In women aged 41-50 years, the reference range for free testosterone is 1 to 4 pg/mL.",1,reproductive,none,hard,177,Univ. of Iowa Path Handbook
+The standard reference range for mean corpuscular hemoglobin (MCH) is 27 to 32 pg.,1,hematology,none,easy,4,MedlinePlus (NIH)
+The standard reference range for alkaline phosphatase is 40 to 129 U/L.,1,hepatic,none,hard,45,Mayo Clinic Labs
+"In men aged 31-35 years, the reference range for insulin-like growth factor 1 is 0 to 388 ng/mL.",0,endocrine,scale,easy,142,Warde Medical Laboratory
+The standard reference range for evening cortisol is 2.7 to 10.5 µg/dL.,1,endocrine,none,easy,97,ARUP Laboratories
+The standard reference range for soluble ST2 is 0 to 35 ng/mL.,1,cardiac,none,medium,68,NIH/PMC
+The standard reference range for bicarbonate is 23 to 29 mmol/L.,1,renal & electrolytes,none,easy,31,MedlinePlus (NIH)
+"In males aged 55-64 years, the reference range for NT-proBNP is 0 to 177 pg/mL.",1,cardiac,none,medium,221,Univ. of Iowa Path Handbook
+The standard reference range for ionized calcium is 5.2 to 6.0 mg/dL.,0,renal & electrolytes,shift,medium,35,MedlinePlus (NIH)
+The standard reference range for thyroid-stimulating hormone (TSH) is 1.3 to 3.1 mIU/L.,0,thyroid,scale,easy,88,Cleveland Clinic
+The standard reference range for zinc is 60 to 120 µg/dL.,1,vitamins & nutrition,none,easy,118,ARUP Laboratories
+The standard reference range for C-peptide is 0.5 to 3.3 ng/mL.,1,endocrine,none,easy,100,ARUP Laboratories
+"In women aged 18-30 years, the reference range for free testosterone is 1 to 5 pg/mL.",1,reproductive,none,easy,175,Univ. of Iowa Path Handbook
+"In adult males, the reference range for HDL cholesterol is 44 to 76 mg/dL.",0,lipids,scale,hard,216,Cleveland Clinic
+"In men aged 41-45 years, the reference range for insulin-like growth factor 1 is 103 to 251 ng/mL.",0,endocrine,scale,hard,144,Warde Medical Laboratory
+"In adult males, the reference range for myoglobin is 0 to 72 ng/mL.",1,cardiac,none,medium,224,ARUP Laboratories
+The standard reference range for reverse T3 is 3 to 31 ng/dL.,0,thyroid,scale,easy,94,Mayo Clinic Labs
+The standard reference range for folate is 6.3 to 20.6 ng/mL.,0,vitamins & nutrition,shift,hard,111,MedlinePlus (NIH)
+The standard reference range for homocysteine is 0 to 10 µmol/L.,0,cardiac,shift,medium,65,Univ. of Rochester (URMC)
+The standard reference range for methylmalonic acid is 0 to 0.40 µmol/L.,1,vitamins & nutrition,none,medium,122,Mayo Clinic Labs
+"In adult males, the reference range for red blood cell count is 5.00 to 6.30 million/µL.",0,hematology,shift,medium,155,Mayo Clinic
+"In adult males, the reference range for luteinizing hormone is 1 to 13 mIU/mL.",0,reproductive,scale,hard,186,Univ. of Michigan MLabs
+The standard reference range for beta-hydroxybutyrate is 0.4 to 0.8 mmol/L.,0,blood gas,shift,easy,139,Mayo Clinic Labs
+"In females aged 19-44 years, the reference range for NT-proBNP is 0 to 178 pg/mL.",1,cardiac,none,easy,223,Univ. of Iowa Path Handbook
+The standard reference range for high-sensitivity CRP is 0.0 to 2.2 mg/L.,0,cardiac,scale,hard,66,Mayo Clinic Labs
+The standard reference range for direct bilirubin is 0.1 to 0.4 mg/dL.,0,hepatic,shift,medium,47,MedlinePlus (NIH)
+"In women at mid-cycle, the reference range for follicle-stimulating hormone is 5.0 to 24.0 mIU/mL.",1,reproductive,none,easy,184,Univ. of Michigan MLabs
+The standard reference range for mean corpuscular volume (MCV) is 80 to 100 fL.,1,hematology,none,hard,3,MedlinePlus (NIH)
+The standard reference range for parathyroid hormone is 18 to 59 pg/mL.,1,endocrine,none,hard,102,ARUP Laboratories
+The standard reference range for fecal elastase is 500 to 800 µg/g.,0,pancreatic & GI,shift,easy,127,Mayo Clinic Labs
+The standard reference range for alpha-fetoprotein is 0 to 10 ng/mL.,1,tumor markers,none,hard,132,Univ. of Rochester (URMC)
+The standard reference range for thrombin time is 11.3 to 29.4 seconds.,0,coagulation,scale,easy,22,Mayo Clinic Labs
+"In men aged 20-24 years, the reference range for DHEA-sulfate is 281 to 422 µg/dL.",0,reproductive,scale,easy,196,ARUP Laboratories
+The standard reference range for plasma metanephrine is 0.2 to 0.8 nmol/L.,0,endocrine,shift,medium,107,ARUP Laboratories
+"In adult females, the reference range for gamma-glutamyl transferase (GGT) is 1 to 28 U/L.",0,hepatic,shift,hard,213,Univ. of Michigan MLabs
+The standard reference range for CD4 T-cell count is 1115 to 2485 cells/µL.,0,inflammatory & immune,shift,medium,83,ARUP Laboratories
+The standard reference range for white blood cell count is 11.0 to 17.5 ×10³/µL.,0,hematology,shift,easy,1,MedlinePlus (NIH)
+"In postmenopausal women, the reference range for prolactin is 6.4 to 15.7 ng/mL.",0,endocrine,scale,easy,148,ARUP Laboratories
+"In adult females, the reference range for aspartate aminotransferase (AST) is 0 to 35 U/L.",1,hepatic,none,easy,211,Univ. of Iowa Path Handbook
+The standard reference range for immunoglobulin E (IgE) is 107 to 321 IU/mL.,0,inflammatory & immune,shift,medium,77,Mayo Clinic Labs
+The standard reference range for ceruloplasmin is 31 to 43 mg/dL.,0,hepatic,shift,easy,55,Mayo Clinic Labs
+The standard reference range for eosinophils (differential) is 0 to 4 %.,1,hematology,none,hard,12,NIH StatPearls
+The standard reference range for ionized calcium is 4.8 to 5.6 mg/dL.,1,renal & electrolytes,none,medium,35,MedlinePlus (NIH)
+"In men aged 45-54 years, the reference range for DHEA-sulfate is 44 to 331 µg/dL.",1,reproductive,none,easy,199,ARUP Laboratories
+"In women in the luteal phase, the reference range for follicle-stimulating hormone is 5.8 to 14.2 mIU/mL.",0,reproductive,shift,medium,185,Univ. of Michigan MLabs
+The standard reference range for estimated glomerular filtration rate is 75 to 105 mL/min/1.73m².,0,renal & electrolytes,shift,medium,41,MedlinePlus (NIH)
+The standard reference range for chloride is 98 to 107 mmol/L.,1,renal & electrolytes,none,hard,30,Mayo Clinic Labs
+The standard reference range for anti-thyroid peroxidase antibody is 9 to 18 IU/mL.,0,inflammatory & immune,shift,easy,79,Mayo Clinic Labs
+The standard reference range for 25-hydroxyvitamin D is 80 to 130 ng/mL.,0,endocrine,shift,easy,103,ARUP Laboratories
+"In women at mid-cycle, the reference range for follicle-stimulating hormone is 9.8 to 19.2 mIU/mL.",0,reproductive,scale,easy,184,Univ. of Michigan MLabs
+The standard reference range for cancer antigen 15-3 is 30 to 60 U/mL.,0,tumor markers,shift,easy,133,Mayo Clinic Labs
+The standard reference range for C-reactive protein is 2 to 12 mg/L.,0,inflammatory & immune,shift,hard,69,MedlinePlus (NIH)
+The standard reference range for alkaline phosphatase is 18 to 107 U/L.,0,hepatic,shift,hard,45,Mayo Clinic Labs
+"In women aged 50 years and older, the reference range for total testosterone is 22 to 60 ng/dL.",0,reproductive,shift,medium,173,Univ. of Iowa Path Handbook
+The standard reference range for lambda free light chain is 0.67 to 3.46 mg/dL.,1,inflammatory & immune,none,hard,81,Mayo Clinic Labs
+"In women in the luteal phase, the reference range for luteinizing hormone is 4.8 to 23.7 mIU/mL.",0,reproductive,shift,hard,189,Univ. of Michigan MLabs
+The standard reference range for complement C4 is 15 to 45 mg/dL.,1,inflammatory & immune,none,hard,72,MedlinePlus (NIH)
+"In women in the early follicular phase, the reference range for estradiol is 0 to 69 pg/mL.",0,reproductive,scale,easy,178,Univ. of Michigan MLabs
+The standard reference range for C-reactive protein is 0 to 10 mg/L.,1,inflammatory & immune,none,hard,69,MedlinePlus (NIH)
+"In men aged 35-44 years, the reference range for DHEA-sulfate is 89 to 427 µg/dL.",1,reproductive,none,hard,198,ARUP Laboratories
+"In men 50 years and older, the reference range for erythrocyte sedimentation rate is 0 to 25 mm/hr.",0,hematology,scale,medium,158,NIH StatPearls
+The standard reference range for absolute neutrophil count is 1.5 to 8.0 ×10³/µL.,1,hematology,none,medium,14,NIH StatPearls
+The standard reference range for VLDL cholesterol is 2 to 30 mg/dL.,1,lipids,none,medium,59,MedlinePlus (NIH)
+The standard reference range for vitamin B1 (thiamine) is 42 to 152 nmol/L.,0,vitamins & nutrition,shift,hard,117,Mayo Clinic Labs
+The standard reference range for platelet count is 150 to 400 ×10³/µL.,1,hematology,none,medium,2,MedlinePlus (NIH)
+The standard reference range for ceruloplasmin is 19 to 31 mg/dL.,1,hepatic,none,easy,55,Mayo Clinic Labs
+The standard reference range for arterial oxygen saturation is 94 to 100 %.,1,blood gas,none,hard,138,MedlinePlus (NIH)
+"In women younger than 50 years, the reference range for protein S activity is 60 to 140 %.",0,coagulation,scale,hard,168,Univ. of Michigan MLabs
+"In adult males, the reference range for apolipoprotein A1 is 94 to 178 mg/dL.",1,lipids,none,medium,218,Univ. of Iowa Path Handbook
+The standard reference range for reticulocyte count is 0.77 to 2.26 %.,1,hematology,none,medium,8,MedlinePlus (NIH)
+"In adult females, the reference range for creatinine is 0.70 to 1.15 mg/dL.",0,renal & electrolytes,shift,hard,207,Mayo Clinic Labs
+The standard reference range for cystatin C is 0.53 to 0.95 mg/L.,1,renal & electrolytes,none,hard,42,PubMed (Finney et al.)
+The standard reference range for fructosamine is 205 to 285 µmol/L.,1,endocrine,none,easy,106,ARUP Laboratories
+The standard reference range for copper is 110 to 206 µg/dL.,0,vitamins & nutrition,shift,medium,119,Univ. of Rochester (URMC)
+The standard reference range for selenium is 23 to 190 µg/L.,1,vitamins & nutrition,none,hard,120,ARUP Laboratories
+The standard reference range for kappa free light chain is 1.29 to 3.34 mg/dL.,0,inflammatory & immune,scale,medium,80,Mayo Clinic Labs
+The standard reference range for neutrophils (differential) is 35 to 55 %.,0,hematology,shift,hard,9,NIH StatPearls
+"In women in the luteal phase, the reference range for progesterone is 1.7 to 27.0 ng/mL.",1,reproductive,none,hard,192,Univ. of Iowa Path Handbook
+"In women aged 12-45 years, the reference range for anti-Müllerian hormone is 0.8 to 9.5 ng/mL.",1,reproductive,none,hard,204,Univ. of Michigan MLabs
+The standard reference range for prostate-specific antigen (PSA) is 1 to 3 ng/mL.,0,tumor markers,scale,medium,128,Mayo Clinic Labs
+The standard reference range for triglycerides is 0 to 225 mg/dL.,0,lipids,scale,easy,58,MedlinePlus (NIH)
+The standard reference range for magnesium is 1.7 to 2.2 mg/dL.,1,renal & electrolytes,none,hard,36,MedlinePlus (NIH)
+The standard reference range for mean corpuscular volume (MCV) is 85 to 105 fL.,0,hematology,shift,hard,3,MedlinePlus (NIH)
+The standard reference range for adrenocorticotropic hormone (ACTH) is 7.2 to 63.3 pg/mL.,1,endocrine,none,medium,98,ARUP Laboratories
+The standard reference range for lactate dehydrogenase (LDH) is 149 to 244 U/L.,0,hepatic,shift,hard,51,MedlinePlus (NIH)
+The standard reference range for lipoprotein(a) is 5 to 10 mg/dL.,0,lipids,shift,easy,61,Mayo Clinic Labs
+"In adult females, the reference range for transferrin saturation is 15 to 50 %.",1,iron studies,none,easy,166,Univ. of Iowa Path Handbook
+"In women aged 41-45 years, the reference range for insulin-like growth factor 1 is 239 to 404 ng/mL.",0,endocrine,shift,easy,145,Warde Medical Laboratory
+The standard reference range for vitamin E is 5.5 to 17 mg/L.,1,vitamins & nutrition,none,easy,115,Mayo Clinic Labs
+The standard reference range for serum osmolality is 280 to 300 mOsm/kg.,0,renal & electrolytes,shift,hard,39,MedlinePlus (NIH)
+"In adult males, the reference range for aspartate aminotransferase (AST) is 0 to 50 U/L.",1,hepatic,none,hard,210,Univ. of Iowa Path Handbook
+The standard reference range for lipase is 0 to 160 U/L.,1,pancreatic & GI,none,easy,124,MedlinePlus (NIH)
+The standard reference range for thyroglobulin is 8 to 41 ng/mL.,0,thyroid,shift,hard,93,Univ. of Iowa Path Handbook
+The standard reference range for basophils (differential) is 0.0 to 0.5 %.,0,hematology,shift,easy,13,NIH StatPearls
+The standard reference range for fructosamine is 165 to 325 µmol/L.,0,endocrine,scale,easy,106,ARUP Laboratories
+The standard reference range for immunoglobulin G (IgG) is 700 to 1600 mg/dL.,1,inflammatory & immune,none,medium,74,MedlinePlus (NIH)
+The standard reference range for immunoglobulin M (IgM) is 40 to 230 mg/dL.,1,inflammatory & immune,none,easy,76,MedlinePlus (NIH)
+The standard reference range for sodium is 135 to 145 mmol/L.,1,renal & electrolytes,none,easy,28,Mayo Clinic Labs
+The standard reference range for parathyroid hormone is 14 to 63 pg/mL.,0,endocrine,scale,hard,102,ARUP Laboratories
+The standard reference range for estimated glomerular filtration rate is 90 to 120 mL/min/1.73m².,1,renal & electrolytes,none,medium,41,MedlinePlus (NIH)
+"In males aged 19-44 years, the reference range for NT-proBNP is 0 to 93 pg/mL.",1,cardiac,none,easy,220,Univ. of Iowa Path Handbook
+The standard reference range for free thyroxine (free T4) is 0.5 to 1.3 ng/dL.,0,thyroid,shift,medium,89,Cleveland Clinic
+"In adult males, the reference range for creatine kinase is 38 to 240 U/L.",1,cardiac,none,easy,214,Univ. of Michigan MLabs
+The standard reference range for prostate-specific antigen (PSA) is 0 to 4 ng/mL.,1,tumor markers,none,medium,128,Mayo Clinic Labs
+The standard reference range for monocytes (differential) is 5 to 11 %.,0,hematology,shift,medium,11,NIH StatPearls
+"In adult females, the reference range for serum iron is 26 to 156 µg/dL.",0,iron studies,scale,hard,162,Univ. of Iowa Path Handbook
+"In adult females, the reference range for creatine kinase is 26 to 180 U/L.",1,cardiac,none,medium,215,Univ. of Michigan MLabs
+The standard reference range for arterial pO2 is 75 to 100 mmHg.,1,blood gas,none,easy,136,MedlinePlus (NIH)
+The standard reference range for mean platelet volume is 7.5 to 11.5 fL.,1,hematology,none,easy,7,Cleveland Clinic
+The standard reference range for apolipoprotein B is 73 to 126 mg/dL.,0,lipids,scale,hard,60,Cleveland Clinic
+The standard reference range for C-peptide is 1.2 to 2.6 ng/mL.,0,endocrine,scale,easy,100,ARUP Laboratories
+The standard reference range for cystatin C is 0.49 to 0.99 mg/L.,0,renal & electrolytes,scale,hard,42,PubMed (Finney et al.)
+The standard reference range for B-type natriuretic peptide (BNP) is 0 to 100 pg/mL.,1,cardiac,none,easy,64,Merck Manuals
+The standard reference range for mean corpuscular hemoglobin concentration (MCHC) is 30 to 34 g/dL.,0,hematology,shift,medium,5,MedlinePlus (NIH)
+The standard reference range for evening cortisol is 10.5 to 18.3 µg/dL.,0,endocrine,shift,easy,97,ARUP Laboratories
+The standard reference range for arterial pO2 is 81 to 94 mmHg.,0,blood gas,scale,easy,136,MedlinePlus (NIH)
+The standard reference range for vitamin A (retinol) is 32.5 to 78.0 µg/dL.,1,vitamins & nutrition,none,medium,113,Mayo Clinic Labs
+"In adult females, the reference range for red blood cell count is 4.04 to 5.01 million/µL.",0,hematology,scale,hard,156,Mayo Clinic
+"In males aged 75 years and older, the reference range for NT-proBNP is 0 to 852 pg/mL.",1,cardiac,none,hard,222,Univ. of Iowa Path Handbook
+"In women younger than 50 years, the reference range for erythrocyte sedimentation rate is 5 to 25 mm/hr.",0,hematology,shift,hard,159,NIH StatPearls
+The standard reference range for thyroxine-binding globulin is 13 to 39 mg/L.,1,thyroid,none,medium,95,MedlinePlus (NIH)
+"In women 50 years and older, the reference range for protein S activity is 150 to 235 %.",0,coagulation,shift,easy,169,Univ. of Michigan MLabs
+"In women aged 50 years and older, the reference range for total testosterone is 2 to 41 ng/dL.",1,reproductive,none,medium,173,Univ. of Iowa Path Handbook
+The standard reference range for thyroglobulin is 0 to 33 ng/mL.,1,thyroid,none,hard,93,Univ. of Iowa Path Handbook
+"In women 50 years and older, the reference range for erythrocyte sedimentation rate is 8 to 22 mm/hr.",0,hematology,scale,easy,160,NIH StatPearls
+The standard reference range for fecal calprotectin is 0 to 55 µg/g.,0,pancreatic & GI,scale,hard,126,Mayo Clinic Labs
+"In adult males, the reference range for gamma-glutamyl transferase (GGT) is 8 to 50 U/L.",1,hepatic,none,medium,212,Univ. of Michigan MLabs
+"In women at mid-cycle, the reference range for estradiol is 120 to 375 pg/mL.",1,reproductive,none,hard,180,Univ. of Michigan MLabs
+The standard reference range for free triiodothyronine (free T3) is 2.0 to 4.4 pg/mL.,1,thyroid,none,easy,91,Mayo Clinic Labs
+"In males aged 75 years and older, the reference range for NT-proBNP is 0 to 937 pg/mL.",0,cardiac,scale,hard,222,Univ. of Iowa Path Handbook
+"In adult females, the reference range for red blood cell count is 3.92 to 5.13 million/µL.",1,hematology,none,hard,156,Mayo Clinic
+The standard reference range for fasting insulin is 3 to 25 µIU/mL.,1,endocrine,none,hard,99,ARUP Laboratories
+"In women aged 18-39 years, the reference range for androstenedione is 0.00 to 3.08 ng/mL.",0,reproductive,scale,easy,202,Univ. of Iowa Path Handbook
+The standard reference range for aldosterone (upright) is 4.0 to 31.0 ng/dL.,1,endocrine,none,medium,104,ARUP Laboratories
+"In adult males, the reference range for creatinine is 0.74 to 1.35 mg/dL.",1,renal & electrolytes,none,medium,206,Mayo Clinic Labs
+"In adult females, the reference range for prolactin is 2.8 to 29.2 ng/mL.",1,endocrine,none,hard,147,ARUP Laboratories
+The standard reference range for triglycerides is 0 to 150 mg/dL.,1,lipids,none,easy,58,MedlinePlus (NIH)
+"In women in the follicular phase, the reference range for luteinizing hormone is 2 to 15 mIU/mL.",1,reproductive,none,easy,187,Univ. of Michigan MLabs
+The standard reference range for potassium is 2.8 to 4.4 mmol/L.,0,renal & electrolytes,shift,medium,29,Mayo Clinic Labs
+The standard reference range for plasma metanephrine is 0 to 0.5 nmol/L.,1,endocrine,none,medium,107,ARUP Laboratories
+"In adult males, the reference range for serum iron is 10 to 108 µg/dL.",0,iron studies,shift,medium,161,Univ. of Iowa Path Handbook
+"In adult females, the reference range for hemoglobin is 12.3 to 14.3 g/dL.",0,hematology,scale,medium,152,Mayo Clinic
+The standard reference range for total thyroxine (T4) is 4.5 to 11.7 µg/dL.,1,thyroid,none,hard,90,Mayo Clinic Labs
+The standard reference range for protein C activity is 0 to 70 %.,0,coagulation,shift,easy,25,Medscape
+"In women aged 21-25 years, the reference range for insulin-like growth factor 1 is 40 to 286 ng/mL.",0,endocrine,shift,hard,141,Warde Medical Laboratory
+"In men aged 20-24 years, the reference range for DHEA-sulfate is 211 to 492 µg/dL.",1,reproductive,none,easy,196,ARUP Laboratories
+The standard reference range for vitamin B12 is 0 to 1098 pg/mL.,0,vitamins & nutrition,scale,medium,110,Mayo Clinic Labs
+The standard reference range for vitamin B6 (pyridoxal 5-phosphate) is 14 to 41 µg/L.,0,vitamins & nutrition,scale,medium,116,Mayo Clinic Labs
+The standard reference range for alpha-1 antitrypsin is 90 to 200 mg/dL.,1,hepatic,none,hard,54,Merck Manuals
+The standard reference range for morning cortisol is 7.2 to 17.2 µg/dL.,0,endocrine,scale,hard,96,ARUP Laboratories
+"In women at mid-cycle, the reference range for luteinizing hormone is 39 to 88 mIU/mL.",0,reproductive,scale,medium,188,Univ. of Michigan MLabs
+The standard reference range for vitamin B1 (thiamine) is 70 to 180 nmol/L.,1,vitamins & nutrition,none,hard,117,Mayo Clinic Labs
+The standard reference range for cancer antigen 125 (CA-125) is 0 to 52 U/mL.,0,tumor markers,scale,easy,130,Medscape
+The standard reference range for prothrombin time (PT) is 9.8 to 12.2 seconds.,0,coagulation,shift,medium,17,MedlinePlus (NIH)
+"In adult males, the reference range for aspartate aminotransferase (AST) is 0 to 55 U/L.",0,hepatic,scale,hard,210,Univ. of Iowa Path Handbook
+"In women aged 31-40 years, the reference range for free testosterone is 2 to 5 pg/mL.",0,reproductive,scale,medium,176,Univ. of Iowa Path Handbook
+The standard reference range for immunoglobulin M (IgM) is 88 to 182 mg/dL.,0,inflammatory & immune,scale,easy,76,MedlinePlus (NIH)
+The standard reference range for copper is 63 to 158 µg/dL.,1,vitamins & nutrition,none,medium,119,Univ. of Rochester (URMC)
+The standard reference range for transferrin is 200 to 360 mg/dL.,1,iron studies,none,hard,87,Univ. of Iowa Path Handbook
+The standard reference range for phosphate is 0.5 to 2.5 mg/dL.,0,renal & electrolytes,shift,easy,37,Mayo Clinic Labs
+The standard reference range for anti-thyroid peroxidase antibody is 0 to 9 IU/mL.,1,inflammatory & immune,none,easy,79,Mayo Clinic Labs
+The standard reference range for total bilirubin is 0.0 to 1.2 mg/dL.,1,hepatic,none,easy,46,Mayo Clinic Labs
+"In women aged 18-30 years, the reference range for free testosterone is 5 to 9 pg/mL.",0,reproductive,shift,easy,175,Univ. of Iowa Path Handbook
+The standard reference range for adrenocorticotropic hormone (ACTH) is 0.0 to 77.3 pg/mL.,0,endocrine,scale,medium,98,ARUP Laboratories
+"In adult males, the reference range for prolactin is 0.0 to 21.6 ng/mL.",0,endocrine,scale,medium,146,ARUP Laboratories
+The standard reference range for international normalized ratio (INR) is 0.8 to 1.1.,1,coagulation,none,hard,18,MedlinePlus (NIH)
+"In adult males, the reference range for HDL cholesterol is 40 to 80 mg/dL.",1,lipids,none,hard,216,Cleveland Clinic
+The standard reference range for procalcitonin is 0.0 to 0.2 ng/mL.,0,inflammatory & immune,scale,easy,70,NIH StatPearls
+"In women in the luteal phase, the reference range for luteinizing hormone is 0.1 to 19 mIU/mL.",1,reproductive,none,hard,189,Univ. of Michigan MLabs
+The standard reference range for folate is 2.7 to 17 ng/mL.,1,vitamins & nutrition,none,hard,111,MedlinePlus (NIH)
+The standard reference range for microalbumin (urine) is 25 to 50 mg/g.,0,renal & electrolytes,shift,easy,43,Mayo Clinic Labs
+The standard reference range for cancer antigen 15-3 is 0 to 30 U/mL.,1,tumor markers,none,easy,133,Mayo Clinic Labs
+"In women aged 41-45 years, the reference range for insulin-like growth factor 1 is 74 to 239 ng/mL.",1,endocrine,none,easy,145,Warde Medical Laboratory
+The standard reference range for VLDL cholesterol is 16 to 44 mg/dL.,0,lipids,shift,medium,59,MedlinePlus (NIH)
+"In adult females, the reference range for HDL cholesterol is 20 to 50 mg/dL.",0,lipids,shift,easy,217,Cleveland Clinic
+The standard reference range for free thyroxine (free T4) is 0.9 to 1.7 ng/dL.,1,thyroid,none,medium,89,Cleveland Clinic
+The standard reference range for complement C4 is 18 to 42 mg/dL.,0,inflammatory & immune,scale,hard,72,MedlinePlus (NIH)
+The standard reference range for fibrinogen is 240 to 360 mg/dL.,0,coagulation,scale,medium,20,MedlinePlus (NIH)
+The standard reference range for lipase is 40 to 120 U/L.,0,pancreatic & GI,scale,easy,124,MedlinePlus (NIH)
+The standard reference range for CD4/CD8 ratio is 0.8 to 3.9.,1,inflammatory & immune,none,easy,85,ARUP Laboratories
+"In adult males, the reference range for ferritin is 336 to 648 ng/mL.",0,iron studies,shift,easy,163,Mayo Clinic Labs
+"In women aged 31-35 years, the reference range for insulin-like growth factor 1 is 84 to 281 ng/mL.",1,endocrine,none,medium,143,Warde Medical Laboratory
+The standard reference range for total bilirubin is 0.0 to 1.8 mg/dL.,0,hepatic,scale,easy,46,Mayo Clinic Labs
+"In women 50 years and older, the reference range for erythrocyte sedimentation rate is 0 to 30 mm/hr.",1,hematology,none,easy,160,NIH StatPearls
+The standard reference range for lactate is 0.9 to 1.8 mmol/L.,0,renal & electrolytes,scale,easy,40,MedlinePlus (NIH)
+The standard reference range for high-sensitivity CRP is 0 to 2.0 mg/L.,1,cardiac,none,hard,66,Mayo Clinic Labs
+The standard reference range for arterial pCO2 is 39 to 43 mmHg.,0,blood gas,shift,hard,135,MedlinePlus (NIH)
+The standard reference range for total complement (CH50) is 90 to 139 U/mL.,0,inflammatory & immune,shift,easy,73,MedlinePlus (NIH)
+"In adult females, the reference range for serum iron is 37 to 145 µg/dL.",1,iron studies,none,hard,162,Univ. of Iowa Path Handbook
+The standard reference range for carcinoembryonic antigen (CEA) is 0 to 3 ng/mL.,1,tumor markers,none,hard,129,Mayo Clinic Labs
+The standard reference range for thyroid-stimulating hormone (TSH) is 0.4 to 4.0 mIU/L.,1,thyroid,none,easy,88,Cleveland Clinic
+"In adult males, the reference range for transferrin saturation is 20 to 50 %.",1,iron studies,none,hard,165,Univ. of Iowa Path Handbook
+The standard reference range for platelet count is 88 to 462 ×10³/µL.,0,hematology,scale,medium,2,MedlinePlus (NIH)
+The standard reference range for bleeding time is 1 to 9 minutes.,1,coagulation,none,medium,23,MedlinePlus (NIH)
+"In adult males, the reference range for hematocrit is 38.3 to 48.6 %.",1,hematology,none,hard,153,Mayo Clinic
+"In adult males, the reference range for ferritin is 24 to 336 ng/mL.",1,iron studies,none,easy,163,Mayo Clinic Labs
+The standard reference range for zinc is 30 to 150 µg/dL.,0,vitamins & nutrition,scale,easy,118,ARUP Laboratories
+The standard reference range for immunoglobulin E (IgE) is 0 to 214 IU/mL.,1,inflammatory & immune,none,medium,77,Mayo Clinic Labs
+The standard reference range for haptoglobin is 30 to 200 mg/dL.,1,hematology,none,easy,16,Mayo Clinic Labs
+The standard reference range for fasting glucose is 70 to 100 mg/dL.,1,renal & electrolytes,none,hard,33,MedlinePlus (NIH)
+The standard reference range for soluble ST2 is 7 to 28 ng/mL.,0,cardiac,scale,medium,68,NIH/PMC
+"In women aged 41-50 years, the reference range for free testosterone is 0 to 3 pg/mL.",0,reproductive,shift,hard,177,Univ. of Iowa Path Handbook
+"In women younger than 50 years, the reference range for protein S activity is 50 to 150 %.",1,coagulation,none,hard,168,Univ. of Michigan MLabs
+The standard reference range for beta-hCG (non-pregnant) is 0 to 7.0 mIU/mL.,1,reproductive,none,easy,109,Mayo Clinic Labs
+The standard reference range for D-dimer is 0 to 0.5 µg/mL.,1,coagulation,none,hard,21,Mayo Clinic Labs
+The standard reference range for transferrin is 240 to 400 mg/dL.,0,iron studies,shift,hard,87,Univ. of Iowa Path Handbook
+The standard reference range for hemoglobin A1c is 3.2 to 4.8 %.,0,endocrine,shift,medium,101,NIDDK (NIH)
+The standard reference range for absolute lymphocyte count is 1.8 to 4.8 ×10³/µL.,0,hematology,shift,hard,15,NIH StatPearls
+"In women in the luteal phase, the reference range for progesterone is 4.2 to 24.5 ng/mL.",0,reproductive,scale,hard,192,Univ. of Iowa Path Handbook
+The standard reference range for alanine aminotransferase (ALT) is 7 to 55 U/L.,1,hepatic,none,medium,44,Mayo Clinic Labs
+The standard reference range for prealbumin is 20 to 40 mg/dL.,1,vitamins & nutrition,none,easy,121,ARUP Laboratories
+"In adult females, the reference range for apolipoprotein A1 is 101 to 199 mg/dL.",1,lipids,none,hard,219,Univ. of Iowa Path Handbook
+The standard reference range for arterial oxygen saturation is 93 to 101 %.,0,blood gas,scale,hard,138,MedlinePlus (NIH)
+The standard reference range for ammonia is 15 to 45 µg/dL.,1,hepatic,none,easy,52,MedlinePlus (NIH)
+"In women at mid-cycle (ovulation), the reference range for progesterone is 0.8 to 3.0 ng/mL.",1,reproductive,none,medium,191,Univ. of Iowa Path Handbook
+"In adult males, the reference range for protein S activity is 108 to 192 %.",0,coagulation,shift,medium,167,Univ. of Michigan MLabs
+"In females aged 19-44 years, the reference range for NT-proBNP is 178 to 356 pg/mL.",0,cardiac,shift,easy,223,Univ. of Iowa Path Handbook
+The standard reference range for selenium is 40 to 173 µg/L.,0,vitamins & nutrition,scale,hard,120,ARUP Laboratories
+The standard reference range for carcinoembryonic antigen (CEA) is 1 to 4 ng/mL.,0,tumor markers,shift,hard,129,Mayo Clinic Labs
+"In men aged 21-25 years, the reference range for insulin-like growth factor 1 is 158 to 304 ng/mL.",0,endocrine,scale,medium,140,Warde Medical Laboratory
+The standard reference range for direct bilirubin is 0.0 to 0.3 mg/dL.,1,hepatic,none,medium,47,MedlinePlus (NIH)
+The standard reference range for red cell folate is 262 to 506 ng/mL.,0,vitamins & nutrition,scale,easy,112,Univ. of Rochester (URMC)
+The standard reference range for total thyroxine (T4) is 3.8 to 12.4 µg/dL.,0,thyroid,scale,hard,90,Mayo Clinic Labs
+"In men aged 35-44 years, the reference range for DHEA-sulfate is 55 to 461 µg/dL.",0,reproductive,scale,hard,198,ARUP Laboratories
+The standard reference range for activated partial thromboplastin time (aPTT) is 25 to 35 seconds.,1,coagulation,none,easy,19,MedlinePlus (NIH)
+"In women in the follicular phase, the reference range for progesterone is 0.0 to 2.1 ng/mL.",0,reproductive,scale,easy,190,Univ. of Iowa Path Handbook
+"In men aged 19-49 years, the reference range for total testosterone is 102 to 983 ng/dL.",0,reproductive,scale,medium,170,Univ. of Iowa Path Handbook
+"In men aged 50 years and older, the reference range for total testosterone is 330 to 877 ng/dL.",0,reproductive,shift,hard,171,Univ. of Iowa Path Handbook
+"In adult females, the reference range for ferritin is 11 to 307 ng/mL.",1,iron studies,none,medium,164,Mayo Clinic Labs
+The standard reference range for beta-hCG (non-pregnant) is 7.0 to 14.0 mIU/mL.,0,reproductive,shift,easy,109,Mayo Clinic Labs
+"In women aged 31-35 years, the reference range for insulin-like growth factor 1 is 182 to 380 ng/mL.",0,endocrine,shift,medium,143,Warde Medical Laboratory
+"In adult females, the reference range for hemoglobin is 11.6 to 15.0 g/dL.",1,hematology,none,medium,152,Mayo Clinic
+The standard reference range for alpha-1 antitrypsin is 79 to 211 mg/dL.,0,hepatic,scale,hard,54,Merck Manuals
+The standard reference range for amylase is 46 to 118 U/L.,0,pancreatic & GI,shift,hard,123,ARUP Laboratories
+"In adult males, the reference range for growth hormone is 1.53 to 4.47 ng/mL.",0,endocrine,shift,medium,149,ARUP Laboratories
+"In men aged 18 years and older, the reference range for free testosterone is 18 to 182 pg/mL.",0,reproductive,scale,hard,174,Univ. of Iowa Path Handbook
+The standard reference range for globulin is 1.6 to 3.9 g/dL.,0,hepatic,scale,medium,50,Cleveland Clinic
+The standard reference range for red cell distribution width (RDW) is 11.2 to 14.8 %.,0,hematology,scale,hard,6,NIH StatPearls
+The standard reference range for lymphocytes (differential) is 20 to 40 %.,1,hematology,none,easy,10,NIH StatPearls
+"In women at mid-cycle, the reference range for estradiol is 146 to 350 pg/mL.",0,reproductive,scale,hard,180,Univ. of Michigan MLabs
+The standard reference range for thyroxine-binding globulin is 26 to 52 mg/L.,0,thyroid,shift,medium,95,MedlinePlus (NIH)
+"In women in the early follicular phase, the reference range for estradiol is 12 to 50 pg/mL.",1,reproductive,none,easy,178,Univ. of Michigan MLabs
+"In adult males, the reference range for protein S activity is 65 to 150 %.",1,coagulation,none,medium,167,Univ. of Michigan MLabs
+The standard reference range for bicarbonate is 29 to 35 mmol/L.,0,renal & electrolytes,shift,easy,31,MedlinePlus (NIH)
+"In men aged 18 years and older, the reference range for free testosterone is 32 to 168 pg/mL.",1,reproductive,none,hard,174,Univ. of Iowa Path Handbook
+"In women in the follicular phase, the reference range for follicle-stimulating hormone is 2.0 to 12.0 mIU/mL.",1,reproductive,none,hard,183,Univ. of Michigan MLabs
+The standard reference range for mean platelet volume is 11.5 to 15.5 fL.,0,hematology,shift,easy,7,Cleveland Clinic
+"In adult females, the reference range for uric acid is 2.4 to 5.7 mg/dL.",1,renal & electrolytes,none,medium,209,Univ. of Iowa Path Handbook
+The standard reference range for arterial bicarbonate is 19 to 25 mmol/L.,0,blood gas,shift,medium,137,MedlinePlus (NIH)
+"In adult females, the reference range for prolactin is 9.4 to 35.8 ng/mL.",0,endocrine,shift,hard,147,ARUP Laboratories
+The standard reference range for eosinophils (differential) is 1 to 3 %.,0,hematology,scale,hard,12,NIH StatPearls
+"In adult females, the reference range for hematocrit is 30.8 to 49.6 %.",0,hematology,scale,easy,154,Mayo Clinic
+The standard reference range for anion gap is 8 to 12 mmol/L.,1,renal & electrolytes,none,medium,38,NIH StatPearls
+"In adult males, the reference range for creatinine is 0.59 to 1.50 mg/dL.",0,renal & electrolytes,scale,medium,206,Mayo Clinic Labs
+"In men aged 18-39 years, the reference range for androstenedione is 0.53 to 1.14 ng/mL.",0,reproductive,scale,medium,200,Univ. of Iowa Path Handbook
+The standard reference range for vitamin B12 is 180 to 914 pg/mL.,1,vitamins & nutrition,none,medium,110,Mayo Clinic Labs
+"In adult males, the reference range for follicle-stimulating hormone is 1.5 to 10.0 mIU/mL.",1,reproductive,none,medium,182,Univ. of Michigan MLabs
+The standard reference range for alanine aminotransferase (ALT) is 17 to 45 U/L.,0,hepatic,scale,medium,44,Mayo Clinic Labs
+The standard reference range for morning cortisol is 6.0 to 18.4 µg/dL.,1,endocrine,none,hard,96,ARUP Laboratories
+The standard reference range for LDL cholesterol is 0 to 100 mg/dL.,1,lipids,none,hard,57,MedlinePlus (NIH)
+"In adult males, the reference range for creatine kinase is 0 to 341 U/L.",0,cardiac,scale,easy,214,Univ. of Michigan MLabs
+The standard reference range for procalcitonin is 0 to 0.1 ng/mL.,1,inflammatory & immune,none,easy,70,NIH StatPearls
+The standard reference range for mean corpuscular hemoglobin concentration (MCHC) is 32 to 36 g/dL.,1,hematology,none,medium,5,MedlinePlus (NIH)
+"In adult females, the reference range for creatine kinase is 103 to 257 U/L.",0,cardiac,shift,medium,215,Univ. of Michigan MLabs
+"In women at mid-cycle (ovulation), the reference range for progesterone is 1.9 to 4.1 ng/mL.",0,reproductive,shift,medium,191,Univ. of Iowa Path Handbook
+The standard reference range for total iron-binding capacity (TIBC) is 181 to 505 µg/dL.,0,iron studies,scale,medium,86,Univ. of Iowa Path Handbook
+"In women in the late follicular phase, the reference range for estradiol is 130 to 270 pg/mL.",0,reproductive,shift,medium,179,Univ. of Michigan MLabs
+The standard reference range for gastrin is 50 to 150 pg/mL.,0,pancreatic & GI,shift,medium,125,Mayo Clinic Labs
+The standard reference range for chloride is 97 to 108 mmol/L.,0,renal & electrolytes,scale,hard,30,Mayo Clinic Labs
+"In women aged 19-49 years, the reference range for total testosterone is 18 to 38 ng/dL.",0,reproductive,scale,easy,172,Univ. of Iowa Path Handbook
+"In adult males, the reference range for progesterone is 0.2 to 1.4 ng/mL.",1,reproductive,none,easy,193,Univ. of Iowa Path Handbook
+The standard reference range for thrombin time is 15.8 to 24.9 seconds.,1,coagulation,none,easy,22,Mayo Clinic Labs
+The standard reference range for total triiodothyronine (T3) is 80 to 200 ng/dL.,1,thyroid,none,medium,92,Mayo Clinic Labs
+"In adult males, the reference range for myoglobin is 14 to 58 ng/mL.",0,cardiac,scale,medium,224,ARUP Laboratories
+The standard reference range for vitamin B6 (pyridoxal 5-phosphate) is 5 to 50 µg/L.,1,vitamins & nutrition,none,medium,116,Mayo Clinic Labs
+The standard reference range for complement C3 is 88 to 201 mg/dL.,1,inflammatory & immune,none,medium,71,MedlinePlus (NIH)
+"In adult males, the reference range for growth hormone is 0.05 to 3.00 ng/mL.",1,endocrine,none,medium,149,ARUP Laboratories
+The standard reference range for plasma normetanephrine is 0 to 0.9 nmol/L.,1,endocrine,none,hard,108,ARUP Laboratories
+"In adult males, the reference range for hemoglobin is 16.6 to 20.0 g/dL.",0,hematology,shift,easy,151,Mayo Clinic
+The standard reference range for total cholesterol is 0 to 200 mg/dL.,1,lipids,none,medium,56,MedlinePlus (NIH)
+The standard reference range for lipoprotein(a) is 0 to 5 mg/dL.,1,lipids,none,easy,61,Mayo Clinic Labs
+The standard reference range for arterial pH is 7.37 to 7.43.,0,blood gas,scale,medium,134,MedlinePlus (NIH)
+The standard reference range for complement C3 is 144 to 258 mg/dL.,0,inflammatory & immune,shift,medium,71,MedlinePlus (NIH)
+The standard reference range for arterial pCO2 is 38 to 42 mmHg.,1,blood gas,none,hard,135,MedlinePlus (NIH)
+The standard reference range for hemoglobin A1c is 4.0 to 5.6 %.,1,endocrine,none,medium,101,NIDDK (NIH)
+"In women in the follicular phase, the reference range for follicle-stimulating hormone is 4.5 to 14.5 mIU/mL.",0,reproductive,shift,hard,183,Univ. of Michigan MLabs
+"In adult males, the reference range for progesterone is 1.4 to 2.6 ng/mL.",0,reproductive,shift,easy,193,Univ. of Iowa Path Handbook
+The standard reference range for lymphocytes (differential) is 10 to 50 %.,0,hematology,scale,easy,10,NIH StatPearls
+The standard reference range for serum osmolality is 275 to 295 mOsm/kg.,1,renal & electrolytes,none,hard,39,MedlinePlus (NIH)
+The standard reference range for total calcium is 8.5 to 10.2 mg/dL.,1,renal & electrolytes,none,easy,34,MedlinePlus (NIH)
+The standard reference range for bleeding time is 5 to 13 minutes.,0,coagulation,shift,medium,23,MedlinePlus (NIH)
+The standard reference range for international normalized ratio (INR) is 0.7 to 1.2.,0,coagulation,scale,hard,18,MedlinePlus (NIH)
+The standard reference range for methylmalonic acid is 0.00 to 0.50 µmol/L.,0,vitamins & nutrition,scale,medium,122,Mayo Clinic Labs
+"In men aged 40 years and older, the reference range for androstenedione is 0.23 to 0.89 ng/mL.",1,reproductive,none,hard,201,Univ. of Iowa Path Handbook
+"In women 50 years and older, the reference range for protein S activity is 65 to 150 %.",1,coagulation,none,easy,169,Univ. of Michigan MLabs
+"In non-pregnant adult females, the reference range for sex hormone-binding globulin is 47 to 164 nmol/L.",0,reproductive,shift,hard,195,Univ. of Michigan MLabs
+The standard reference range for neutrophils (differential) is 40 to 60 %.,1,hematology,none,hard,9,NIH StatPearls
+The standard reference range for total protein is 6.7 to 7.9 g/dL.,0,hepatic,scale,hard,48,MedlinePlus (NIH)
+The standard reference range for albumin is 3.4 to 5.4 g/dL.,1,hepatic,none,easy,49,MedlinePlus (NIH)
+The standard reference range for total protein is 6.5 to 8.1 g/dL.,1,hepatic,none,hard,48,MedlinePlus (NIH)
+The standard reference range for immunoglobulin A (IgA) is 103 to 501 mg/dL.,1,inflammatory & immune,none,hard,75,MedlinePlus (NIH)
+The standard reference range for troponin I is 0.00 to 0.05 ng/mL.,0,cardiac,scale,medium,62,Cleveland Clinic
+"In postmenopausal women, the reference range for prolactin is 1.8 to 20.3 ng/mL.",1,endocrine,none,easy,148,ARUP Laboratories
+The standard reference range for kappa/lambda free light chain ratio is 0.57 to 2.45.,1,inflammatory & immune,none,easy,82,Mayo Clinic Labs
+"In adult females, the reference range for myoglobin is 0 to 58 ng/mL.",1,cardiac,none,hard,225,ARUP Laboratories
+"In adult males, the reference range for hematocrit is 35.7 to 46.0 %.",0,hematology,shift,hard,153,Mayo Clinic
+"In women at mid-cycle, the reference range for luteinizing hormone is 22 to 105 mIU/mL.",1,reproductive,none,medium,188,Univ. of Michigan MLabs
+The standard reference range for vitamin C is 0.2 to 2.2 mg/dL.,0,vitamins & nutrition,scale,hard,114,Mayo Clinic Labs
+The standard reference range for immunoglobulin G (IgG) is 475 to 1825 mg/dL.,0,inflammatory & immune,scale,medium,74,MedlinePlus (NIH)
+"In adult males, the reference range for hemoglobin is 13.2 to 16.6 g/dL.",1,hematology,none,easy,151,Mayo Clinic
+"In men aged 25-34 years, the reference range for DHEA-sulfate is 16 to 304 µg/dL.",0,reproductive,shift,medium,197,ARUP Laboratories
+"In adult females, the reference range for aspartate aminotransferase (AST) is 35 to 70 U/L.",0,hepatic,shift,easy,211,Univ. of Iowa Path Handbook
+"In women aged 40 years and older, the reference range for androstenedione is 0.47 to 1.17 ng/mL.",0,reproductive,shift,medium,203,Univ. of Iowa Path Handbook
+The standard reference range for beta-hydroxybutyrate is 0 to 0.4 mmol/L.,1,blood gas,none,easy,139,Mayo Clinic Labs
+"In adult males, the reference range for sex hormone-binding globulin is 0 to 109 nmol/L.",0,reproductive,scale,medium,194,Univ. of Michigan MLabs
+"In men aged 18-39 years, the reference range for androstenedione is 0.33 to 1.34 ng/mL.",1,reproductive,none,medium,200,Univ. of Iowa Path Handbook
+The standard reference range for blood urea nitrogen (BUN) is 9 to 17 mg/dL.,0,renal & electrolytes,scale,medium,32,MedlinePlus (NIH)
+"In adult males, the reference range for gamma-glutamyl transferase (GGT) is 16 to 42 U/L.",0,hepatic,scale,medium,212,Univ. of Michigan MLabs
+The standard reference range for immunoglobulin A (IgA) is 202 to 600 mg/dL.,0,inflammatory & immune,shift,hard,75,MedlinePlus (NIH)
+"In women aged 40 years and older, the reference range for androstenedione is 0.13 to 0.82 ng/mL.",1,reproductive,none,medium,203,Univ. of Iowa Path Handbook
+The standard reference range for rheumatoid factor is 0 to 15 IU/mL.,1,inflammatory & immune,none,hard,78,Mayo Clinic Labs
+The standard reference range for sodium is 138 to 142 mmol/L.,0,renal & electrolytes,scale,easy,28,Mayo Clinic Labs
+The standard reference range for fecal calprotectin is 0 to 50 µg/g.,1,pancreatic & GI,none,hard,126,Mayo Clinic Labs
+The standard reference range for cancer antigen 19-9 is 0 to 35 U/mL.,1,tumor markers,none,medium,131,Mayo Clinic Labs
+The standard reference range for kappa/lambda free light chain ratio is 0.00 to 3.39.,0,inflammatory & immune,scale,easy,82,Mayo Clinic Labs
+The standard reference range for D-dimer is 0.1 to 0.6 µg/mL.,0,coagulation,shift,hard,21,Mayo Clinic Labs
+The standard reference range for antithrombin III activity is 80 to 120 %.,1,coagulation,none,hard,24,Univ. of Rochester (URMC)
+The standard reference range for vitamin E is 17.0 to 28.5 mg/L.,0,vitamins & nutrition,shift,easy,115,Mayo Clinic Labs
+"In men aged 21-25 years, the reference range for insulin-like growth factor 1 is 109 to 353 ng/mL.",1,endocrine,none,medium,140,Warde Medical Laboratory
+The standard reference range for phosphate is 2.5 to 4.5 mg/dL.,1,renal & electrolytes,none,easy,37,Mayo Clinic Labs
+The standard reference range for troponin I is 0 to 0.04 ng/mL.,1,cardiac,none,medium,62,Cleveland Clinic
+The standard reference range for LDL cholesterol is 25 to 125 mg/dL.,0,lipids,shift,hard,57,MedlinePlus (NIH)
+"In adult males, the reference range for prolactin is 2.1 to 17.7 ng/mL.",1,endocrine,none,medium,146,ARUP Laboratories
+The standard reference range for albumin is 1.4 to 3.4 g/dL.,0,hepatic,shift,easy,49,MedlinePlus (NIH)
+The standard reference range for prothrombin time (PT) is 11 to 13.5 seconds.,1,coagulation,none,medium,17,MedlinePlus (NIH)
+"In women in the luteal phase, the reference range for estradiol is 50 to 260 pg/mL.",1,reproductive,none,easy,181,Univ. of Michigan MLabs
+The standard reference range for CD8 T-cell count is 210 to 1200 cells/µL.,1,inflammatory & immune,none,hard,84,ARUP Laboratories
+"In adult females, the reference range for uric acid is 0.7 to 4.0 mg/dL.",0,renal & electrolytes,shift,medium,209,Univ. of Iowa Path Handbook
+The standard reference range for troponin T is 0 to 0.01 ng/mL.,1,cardiac,none,hard,63,Cleveland Clinic
+The standard reference range for total iron-binding capacity (TIBC) is 235 to 451 µg/dL.,1,iron studies,none,medium,86,Univ. of Iowa Path Handbook
+The standard reference range for fecal elastase is 200 to 500 µg/g.,1,pancreatic & GI,none,easy,127,Mayo Clinic Labs
+"In men younger than 50 years, the reference range for erythrocyte sedimentation rate is 15 to 30 mm/hr.",0,hematology,shift,easy,157,NIH StatPearls
+The standard reference range for white blood cell count is 4.5 to 11.0 ×10³/µL.,1,hematology,none,easy,1,MedlinePlus (NIH)
+"In adult males, the reference range for serum iron is 59 to 158 µg/dL.",1,iron studies,none,medium,161,Univ. of Iowa Path Handbook
+"In women aged 19-49 years, the reference range for total testosterone is 8 to 48 ng/dL.",1,reproductive,none,easy,172,Univ. of Iowa Path Handbook
+"In adult males, the reference range for follicle-stimulating hormone is 0.0 to 12.1 mIU/mL.",0,reproductive,scale,medium,182,Univ. of Michigan MLabs
+The standard reference range for 25-hydroxyvitamin D is 30 to 80 ng/mL.,1,endocrine,none,easy,103,ARUP Laboratories
+"In women in the luteal phase, the reference range for follicle-stimulating hormone is 1.5 to 10.0 mIU/mL.",1,reproductive,none,medium,185,Univ. of Michigan MLabs
+The standard reference range for antithrombin III activity is 84 to 116 %.,0,coagulation,scale,hard,24,Univ. of Rochester (URMC)
+The standard reference range for mean corpuscular hemoglobin (MCH) is 28 to 31 pg.,0,hematology,scale,easy,4,MedlinePlus (NIH)
+"In women aged 21-25 years, the reference range for insulin-like growth factor 1 is 101 to 347 ng/mL.",1,endocrine,none,hard,141,Warde Medical Laboratory
+The standard reference range for haptoglobin is 72 to 158 mg/dL.,0,hematology,scale,easy,16,Mayo Clinic Labs
+The standard reference range for galectin-3 is 17.8 to 35.6 ng/mL.,0,cardiac,shift,easy,67,LabCorp
+The standard reference range for arterial pH is 7.38 to 7.42.,1,blood gas,none,medium,134,MedlinePlus (NIH)
+The standard reference range for vitamin C is 0.4 to 2.0 mg/dL.,1,vitamins & nutrition,none,hard,114,Mayo Clinic Labs
+"In adult females, the reference range for apolipoprotein A1 is 126 to 224 mg/dL.",0,lipids,shift,hard,219,Univ. of Iowa Path Handbook
+"In men aged 31-35 years, the reference range for insulin-like growth factor 1 is 95 to 290 ng/mL.",1,endocrine,none,easy,142,Warde Medical Laboratory
+The standard reference range for 5'-nucleotidase is 2 to 15 U/L.,1,hepatic,none,medium,53,MedlinePlus (NIH)
+"In adult females, the reference range for ferritin is 70 to 248 ng/mL.",0,iron studies,scale,medium,164,Mayo Clinic Labs
+"In men younger than 50 years, the reference range for erythrocyte sedimentation rate is 0 to 15 mm/hr.",1,hematology,none,easy,157,NIH StatPearls
+The standard reference range for lambda free light chain is 1.37 to 4.16 mg/dL.,0,inflammatory & immune,shift,hard,81,Mayo Clinic Labs
+The standard reference range for red cell folate is 140 to 628 ng/mL.,1,vitamins & nutrition,none,easy,112,Univ. of Rochester (URMC)
+The standard reference range for free triiodothyronine (free T3) is 4.4 to 6.8 pg/mL.,0,thyroid,shift,easy,91,Mayo Clinic Labs
+The standard reference range for von Willebrand factor antigen is 25 to 175 %.,0,coagulation,scale,medium,26,LabCorp
+"In men aged 41-45 years, the reference range for insulin-like growth factor 1 is 84 to 270 ng/mL.",1,endocrine,none,hard,144,Warde Medical Laboratory
+The standard reference range for prealbumin is 0 to 20 mg/dL.,0,vitamins & nutrition,shift,easy,121,ARUP Laboratories
+The standard reference range for CD4/CD8 ratio is 3.9 to 7.0.,0,inflammatory & immune,shift,easy,85,ARUP Laboratories
+"In women aged 31-40 years, the reference range for free testosterone is 1 to 6 pg/mL.",1,reproductive,none,medium,176,Univ. of Iowa Path Handbook
+The standard reference range for activated partial thromboplastin time (aPTT) is 35 to 45 seconds.,0,coagulation,shift,easy,19,MedlinePlus (NIH)
+"In women in the follicular phase, the reference range for luteinizing hormone is 15 to 28 mIU/mL.",0,reproductive,shift,easy,187,Univ. of Michigan MLabs
+The standard reference range for von Willebrand factor antigen is 50 to 150 %.,1,coagulation,none,medium,26,LabCorp
+The standard reference range for kappa free light chain is 0.61 to 4.02 mg/dL.,1,inflammatory & immune,none,medium,80,Mayo Clinic Labs
+The standard reference range for anion gap is 7 to 13 mmol/L.,0,renal & electrolytes,scale,medium,38,NIH StatPearls
+"In adult males, the reference range for red blood cell count is 4.35 to 5.65 million/µL.",1,hematology,none,medium,155,Mayo Clinic
+"In adult males, the reference range for uric acid is 3.4 to 7.0 mg/dL.",1,renal & electrolytes,none,easy,208,Univ. of Iowa Path Handbook
+"In women in the luteal phase, the reference range for estradiol is 260 to 470 pg/mL.",0,reproductive,shift,easy,181,Univ. of Michigan MLabs
+The standard reference range for arterial bicarbonate is 22 to 28 mmol/L.,1,blood gas,none,medium,137,MedlinePlus (NIH)
+The standard reference range for homocysteine is 5 to 15 µmol/L.,1,cardiac,none,medium,65,Univ. of Rochester (URMC)
+"In males older than 12 years, the reference range for anti-Müllerian hormone is 19.0 to 37.3 ng/mL.",0,reproductive,shift,easy,205,Univ. of Michigan MLabs
+"In women younger than 50 years, the reference range for erythrocyte sedimentation rate is 0 to 20 mm/hr.",1,hematology,none,hard,159,NIH StatPearls
+The standard reference range for protein C activity is 70 to 140 %.,1,coagulation,none,easy,25,Medscape
+"In adult males, the reference range for sex hormone-binding globulin is 10 to 89 nmol/L.",1,reproductive,none,medium,194,Univ. of Michigan MLabs
+"In adult females, the reference range for myoglobin is 14 to 72 ng/mL.",0,cardiac,shift,hard,225,ARUP Laboratories
+The standard reference range for total complement (CH50) is 41 to 90 U/mL.,1,inflammatory & immune,none,easy,73,MedlinePlus (NIH)
+The standard reference range for magnesium is 1.8 to 2.2 mg/dL.,0,renal & electrolytes,scale,hard,36,MedlinePlus (NIH)
+The standard reference range for cancer antigen 125 (CA-125) is 0 to 35 U/mL.,1,tumor markers,none,easy,130,Medscape
+The standard reference range for total cholesterol is 40 to 160 mg/dL.,0,lipids,scale,medium,56,MedlinePlus (NIH)
+"In adult females, the reference range for growth hormone is 0.05 to 8.00 ng/mL.",1,endocrine,none,hard,150,ARUP Laboratories
+The standard reference range for total triiodothyronine (T3) is 104 to 176 ng/dL.,0,thyroid,scale,medium,92,Mayo Clinic Labs
+The standard reference range for amylase is 28 to 100 U/L.,1,pancreatic & GI,none,hard,123,ARUP Laboratories
+The standard reference range for rheumatoid factor is 0 to 16 IU/mL.,0,inflammatory & immune,scale,hard,78,Mayo Clinic Labs
+"In adult females, the reference range for gamma-glutamyl transferase (GGT) is 8 to 35 U/L.",1,hepatic,none,hard,213,Univ. of Michigan MLabs
+"In men aged 40 years and older, the reference range for androstenedione is 0.07 to 0.72 ng/mL.",0,reproductive,shift,hard,201,Univ. of Iowa Path Handbook
+The standard reference range for aldosterone (upright) is 9.4 to 25.6 ng/dL.,0,endocrine,scale,medium,104,ARUP Laboratories
+The standard reference range for gastrin is 0 to 100 pg/mL.,1,pancreatic & GI,none,medium,125,Mayo Clinic Labs
+The standard reference range for cancer antigen 19-9 is 18 to 52 U/mL.,0,tumor markers,shift,medium,131,Mayo Clinic Labs
+The standard reference range for galectin-3 is 0 to 17.8 ng/mL.,1,cardiac,none,easy,67,LabCorp
+The standard reference range for monocytes (differential) is 2 to 8 %.,1,hematology,none,medium,11,NIH StatPearls
+The standard reference range for plasma normetanephrine is 0.1 to 0.8 nmol/L.,0,endocrine,scale,hard,108,ARUP Laboratories
+"In non-pregnant adult females, the reference range for sex hormone-binding globulin is 18 to 135 nmol/L.",1,reproductive,none,hard,195,Univ. of Michigan MLabs
+The standard reference range for fasting insulin is 8 to 30 µIU/mL.,0,endocrine,shift,hard,99,ARUP Laboratories
+"In adult females, the reference range for HDL cholesterol is 50 to 80 mg/dL.",1,lipids,none,easy,217,Cleveland Clinic

@@ -1,0 +1,5 @@
+# Large regenerable inputs are stored outside the repository.
+data/heldout/
+data/q13_vectors/
+
+__pycache__/

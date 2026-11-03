@@ -1,0 +1,6 @@
+Prompt framing is clearly distinguishable from the leading activation PCs. PCA
+is fit on the joint set of 430,230 original and True/False framed activations
+at 88% depth per model, colored by (a) dataset, (b) framing, and (c) label.
+Original and True/False prompts occupy distinct regions in both models whereas
+labels have more overlap. Framing geometrically shifts activations more than
+the label does, limiting direct probe transfer across templates.
